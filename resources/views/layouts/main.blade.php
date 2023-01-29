@@ -21,7 +21,7 @@
     <link rel="canonical" href="{{route('home')}}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Derm Tech France - {{!empty($title) ? $title : ''}}" />
+    <meta property="og:title" content="Derm Tech France {{!empty($title) ? "-".$title : '-'}}" />
     <meta property="og:description" content="Derm Tech France: {{!empty($description) ? $description : 'Quality medical products at your door step'}}" />
     <meta property="og:url" content="{{route('home')}}" />
     <meta property="og:site_name" content="Derm Tech France" />
@@ -122,9 +122,9 @@
 			  	<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="{{route('service')}}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="{{route('product.bluelift')}}">Blue Lift</a></li>
-						<li><a class="dropdown-item" href="{{route('product.cenders')}}">185 Cender's</a></li>
-						<li><a class="dropdown-item" href="{{route('product.indigo')}}">Indigo Carmine</a></li>
+						<li><a class="dropdown-item" href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
+						<li><a class="dropdown-item" href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's</a></li>
+						<li><a class="dropdown-item" href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li>
 					</ul>
 			  	</li>
 

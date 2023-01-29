@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,12 +29,4 @@ Route::get('/contact', function () {
 Route::get('/appointment', function () {
     return view('pages.appointment');
 })->name('appointment');
-Route::get('/bluelift', function () {
-    return view('pages.product.bluelift');
-})->name('product.bluelift');
-Route::get('/cenders', function () {
-    return view('pages.product.cenders');
-})->name('product.cenders');
-Route::get('/indigo', function () {
-    return view('pages.product.indigo');
-})->name('product.indigo');
+Route::get('/product/{slug}', [ProductController::class, 'show'])->name('product');
