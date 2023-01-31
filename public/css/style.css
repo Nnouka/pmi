@@ -1533,7 +1533,7 @@ section:has(.manufacturer-wrapper){
 .details-blob-container {
   position:absolute;
   right:-75px;
-  bottom:30px;
+  bottom:5%;
   width:300px;
   height:300px;
   z-index:-1;
