@@ -52,7 +52,12 @@ class ProductController extends Controller
         if ($product != null) {
             $manufacturer = Manufacturer::find($product->manufacturer_id);
         }
-        return view('pages.product.'.$slug, ['product' => $product, 'manufacturer' => $manufacturer]);
+        return view('pages.product.detail', [
+            'product' => $product,
+            'manufacturer' => $manufacturer,
+            'title' => $product->title,
+            'description' => $product->description,
+        ]);
     }
 
     /**

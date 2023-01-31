@@ -47,10 +47,10 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'name' => 'Indigo Carmine 1% - 10 ML x 10',
             'slug' => 'indigo',
-            'description' => 'Cender\'s, Endoscopic marker 5mL - Sterile pigment for endopigmentation',
+            'description' => 'Highlights anomalies in the mucosal relief (ulceration, fissures, uneven surfaces) and marks tumour margins when the limites are not clearly visible.',
             'info' => 'Detects small, non-polypoid lesions | Improves mucosal relief view | Characterises lesion type',
             'composition' => '1% indigo suspension in water for sprayable preparation for marking | - 10 ml bottle, box of 10 units',
-            'intended_use' => 'Highlights anomalies in the mucosal relief (ulceration, fissures, uneven surfaces) and marks tumour margins when the limites are not clearly visible.|The indigo carmine solution is sprayed onto the area to be examined. The operation can be repeated if necessary. If the colouring is too strong, it can be reduced by rinsing.|Source:SFED website: www.sfed.org|Photos by Jean-Marc CANARD|Colonic mucosa coloured using indigo carmine|Vilosities after coloring|Flat adenoma of the colon after coloring',
+            'intended_use' => 'The indigo carmine solution is sprayed onto the area to be examined. The operation can be repeated if necessary. If the colouring is too strong, it can be reduced by rinsing.|Source:SFED website: www.sfed.org|Photos by Jean-Marc CANARD|Colonic mucosa coloured using indigo carmine|Vilosities after coloring|Flat adenoma of the colon after coloring',
             'equipment_methods' => 'Recommended concentration for use: 0.2% to 0.4%',
             'images' => 'images/products/indigo.png,images/products/indigo1.png,images/products/indigo2.png,images/products/indigo3.png,images/products/indigo4.png',
             'outcome_images' => 'images/products/indigo_outcome.png,images/products/indigo_outcome1.png,images/products/indigo_outcome2.png,images/products/indigo_outcome3.png,images/products/indigo_outcome4.png',

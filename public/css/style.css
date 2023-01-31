@@ -1490,4 +1490,25 @@ a:focus {
   opacity: 1;
 }
 
+div:has(.manufacturer-wrapper),
+section:has(.manufacturer-wrapper){
+  position: relative;
+  min-height: 540px;
+}
+.manufacturer-wrapper {
+  position:absolute;
+  right:0;
+  bottom:0;
+  border-top: 2px solid #333;
+  border-left: 2px solid #333;
+  border-top-left-radius: 100%;
+  padding-top: 95px;
+  padding-left: 95px;
+  padding-right: 5px;
+  box-shadow: 0px 0px 16px rgb(63 54 54 / 63%);
+  z-index: 2;
+}
+.manufacturer-wrapper h3 {
+  color: #223a66;
+}
 /*# sourceMappingURL=maps/style.css.map */
