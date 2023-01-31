@@ -50,6 +50,8 @@ class ProductController extends Controller
         $product = Product::where('slug', $slug)->first();
         $manufacturer = null;
         if ($product != null) {
+            $product->images = \explode("|", $product->images);
+            $product->description_lines = \explode("|", $product->description);
             $manufacturer = Manufacturer::find($product->manufacturer_id);
         }
         return view('pages.product.detail', [

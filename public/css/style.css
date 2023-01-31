@@ -1525,8 +1525,22 @@ section:has(.manufacturer-wrapper){
   position: relative;
   padding: 0;
   padding-top: 15px;
+  overflow: hidden;
 }
 .details-wrapper {
   background-color: #28477f;
+}
+.details-blob-container {
+  position:absolute;
+  right:-75px;
+  bottom:30px;
+  width:300px;
+  height:300px;
+  z-index:-1;
+}
+@media (min-width: 768px) {
+  .details-blob-container {
+    bottom: 180px;
+  }
 }
 /*# sourceMappingURL=maps/style.css.map */
