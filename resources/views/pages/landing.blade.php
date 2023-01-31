@@ -6,11 +6,11 @@
 <section class="page-title bg-1">
   <div class="overlay"></div>
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
         <div class="block text-center">
-          <span class="text-white">All Doctors</span>
-          <h1 class="text-capitalize mb-5 text-lg">Specalized doctors</h1>
+          <h1 class="text-capitalize mb-5 text-lg">Derm Tech France</h1>
+			<p>We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque </p>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -30,9 +30,9 @@
   	  <div class="row justify-content-center">
              <div class="col-lg-6 text-center">
                 <div class="section-title">
-                    <h2>Doctors</h2>
+                    <h2>Vision</h2>
                     <div class="divider mx-auto my-4"></div>
-                    <p>We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</p>
                 </div>
             </div>
         </div>
@@ -40,26 +40,15 @@
       <div class="col-12 text-center  mb-5">
 	        <div class="btn-group btn-group-toggle " data-toggle="buttons">
 	          <label class="btn active ">
-	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Department
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />Products
 	          </label>
 	          <label class="btn ">
-	            <input type="radio" name="shuffle-filter" value="cat1" />Cardiology
+	            <input type="radio" name="shuffle-filter" value="cat1" />About Us
 	          </label>
+			  <a class="js-scroll-trigger" href="#partners">
 	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat2" />Dental
-	          </label>
-	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat3" />Neurology
-	          </label>
-	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat4" />Medicine
-	          </label>
-	           <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat5" />Pediatric
-	          </label>
-	          <label class="btn">
-	            <input type="radio" name="shuffle-filter" value="cat6" />Traumatology
-	          </label>
+					Partners
+	          </label></a>
 	        </div>
       </div>
 
@@ -120,7 +109,7 @@
 	      	</div>
       </div>
 
-      	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat5&quot;]">
+      {{--	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat5&quot;]">
         	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 		        	<div class="doctor-img">
@@ -216,11 +205,50 @@
                 	<p>Dental</p>
                 </div> 
 	      	</div>
-        </div>
+        </div> --}}
     </div>
   </div>
 </section>
 <!-- /portfolio -->
 @include('partials.appointment')
+<div class="row justify-content-center">
+	<div class="col-lg-6 text-center">
+	   <div class="section-title">
+		   <h2>Our Values</h2>
+		   <div class="divider mx-auto my-4"></div>
+		   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</h5>
+	   </div>
+   </div>
+</div>
+<div class="row justify-content-center">
+	<div class="col-lg-6 text-center">
+	   <div class="section-title partners">
+		   <h2>Our Partners</h2>
+		   <div class="divider mx-auto my-4"></div>
+	   </div>
+   </div>
+   <div class="container">
+   <div class="row shuffle-wrapper portfolio-gallery justify-content-center">
+	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat1&quot;,&quot;cat2&quot;]">
+		<div class="position-relative doctor-inner-box">
+		  <div class="doctor-profile">
+			 <div class="doctor-img">
+					 <img src="images/partners/2-Carmonja-Logo.jpg" alt="partner-image" class="img-fluid w-100">
+			 </div>
+		  </div> 
+		</div>
+	</div>
+
+    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat2&quot;]">
+	  <div class="position-relative doctor-inner-box">
+		  <div class="doctor-profile">
+			  <div class="doctor-img">
+				 <img src="images\partners\Diagmed-Healthcare.png" alt="partner-image" class="img-fluid w-100">
+			  </div>
+		  </div>
+		</div>
+    </div>
+	</div>
+</div>
 
 @endsection

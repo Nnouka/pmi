@@ -138,7 +138,7 @@
 			  	</li> -->
 				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">News</a></li>
 
-			   <li class="nav-item"><a class="nav-link" href="{{route('news')}}">Contact</a></li>
+			   <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
 			</ul>
 		  </div>
 		</div>
@@ -153,7 +153,7 @@
 <footer class="footer section gray-bg">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 mr-auto col-sm-6">
+			<div class="col-lg-6 mr-auto col-sm-12">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
 						<img src="images/logo.png" alt="" class="img-fluid">
@@ -164,21 +164,6 @@
 						<li class="list-inline-item"><a href="#"><i class="icofont-facebook"></i></a></li>
 						<li class="list-inline-item"><a href="#"><i class="icofont-twitter"></i></a></li>
 						<li class="list-inline-item"><a href="#"><i class="icofont-linkedin"></i></a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Department</h4>
-					<div class="divider mb-4"></div>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Surgery </a></li>
-						<li><a href="#">Wome's Health</a></li>
-						<li><a href="#">Radiology</a></li>
-						<li><a href="#">Cardioc</a></li>
-						<li><a href="#">Medicine</a></li>
 					</ul>
 				</div>
 			</div>

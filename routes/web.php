@@ -25,7 +25,7 @@ Route::get('/news', function () {
 })->name('news');
 Route::get('/contact', function () {
     return view('pages.contact.index');
-})->name('news');
+})->name('contact');
 Route::get('/appointment', function () {
     return view('pages.appointment');
 })->name('appointment');
