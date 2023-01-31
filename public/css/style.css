@@ -1531,15 +1531,15 @@ section:has(.manufacturer-wrapper){
   background-color: #28477f;
 }
 .details-blob-container {
-  position:absolute;
-  right:-75px;
-  bottom:5%;
-  width:300px;
-  height:300px;
-  z-index:-1;
+  width:100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .details-blob-container {
+    position:absolute;
+    right:-75px;
+    width:300px;
+    height:300px;
+    z-index:-1;
     bottom: 180px;
   }
 }
