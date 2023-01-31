@@ -19,7 +19,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'name' => 'Blue Lift',
             'slug' => 'bluelift',
-            'description' => 'Improves efficacy,Reduces  procedure time,Secure solution',
+            'description' => 'Improves efficacy|Reduces  procedure time|Secure solution',
             'info' => 'Polyp removal solution (10ml), sterile medical device',
             'composition' => 'Sodium hyaluronate, indigo carmine, saline',
             'packaging' => 'Solution supplied in a 10 ml clear glass antibiotic bottle',

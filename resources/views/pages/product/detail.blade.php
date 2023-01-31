@@ -3,38 +3,28 @@
 @section('title', $product->name)
 @section('content')
 
-<section class="page-title bg-1">
-  <div class="overlay"></div>
+<section class="product-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-			<span class="text-white">Products</span>
-			<h1 class="text-capitalize mb-5 text-lg">{{ $product->name }}</h1>
+			<span class="title-span">Products</span>
+			<h1 class="text-capitalize mb-5 text-lg title-text">{{ $product->name }}</h1>
+            @foreach(explode("|", $product->description) as $desc_line)
+                <p class="description-text p-0 m-1">{{$desc_line}}</p>
+            @endforeach
         </div>
       </div>
     </div>
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#28477f" fill-opacity="1" d="M0,256L60,213.3C120,171,240,85,360,96C480,107,600,213,720,250.7C840,288,960,256,1080,218.7C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+  </svg>
 </section>
-
-
-<!-- portfolio -->
-<section class="section doctors">
+<section class="details-wrapper">
     @include('partials.product.manufacturer')
 </section>
 <!-- /portfolio -->
-<section class="section cta-page">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-7">
-				<div class="cta-content">
-					<div class="divider mb-4"></div>
-					<h2 class="mb-5 text-lg">We are pleased to offer you the <span class="title-color">chance to have the healthy</span></h2>
-					<a href="{{route('appointment')}}" class="btn btn-main-2 btn-round-full">Get appoinment<i class="icofont-simple-right  ml-2"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+@include('partials.appointment')
 
 @endsection
