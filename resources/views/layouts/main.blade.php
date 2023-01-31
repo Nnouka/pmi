@@ -21,7 +21,7 @@
     <link rel="canonical" href="{{route('home')}}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Derm Tech France {{!empty($title) ? "-".$title : '-'}}" />
+    <meta property="og:title" content="Derm Tech France {{!empty($title) ? "- ".$title : ''}}" />
     <meta property="og:description" content="Derm Tech France: {{!empty($description) ? $description : 'Quality medical products at your door step'}}" />
     <meta property="og:url" content="{{route('home')}}" />
     <meta property="og:site_name" content="Derm Tech France" />

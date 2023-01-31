@@ -55,7 +55,7 @@ class ProductController extends Controller
         return view('pages.product.detail', [
             'product' => $product,
             'manufacturer' => $manufacturer,
-            'title' => $product->title,
+            'title' => $product->name,
             'description' => $product->description,
         ]);
     }
