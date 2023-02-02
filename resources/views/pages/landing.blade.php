@@ -31,23 +31,17 @@
             </div>
         </div>
 
-      <div class="col-12 text-center  mb-5">
-	        <div class="btn-group btn-group-toggle " data-toggle="buttons">
-	          <label class="btn active ">
-	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />Products
-	          </label>
-	          <label class="btn ">
-	            <input type="radio" name="shuffle-filter" value="cat1" />About Us
-	          </label>
-			  <a class="js-scroll-trigger" href="#partners">
-	          <label class="btn">
-					Partners
-	          </label></a>
-	        </div>
-      </div>
+		<div class="row justify-content-center">
+			<div class="col-lg-6 text-center">
+			   <div class="section-title">
+				   <h2>Our Products</h2>
+				   <div class="divider mx-auto my-4"></div>
+			   </div>
+		   </div>
+		</div>>
 
-    <div class="row shuffle-wrapper portfolio-gallery">
-      	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat1&quot;,&quot;cat2&quot;]">
+    <div class="row portfolio-gallery justify-content-center">
+      	<div class="col-lg-3 col-sm-6 col-md-6 mb-4">
 	      	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 	               <div class="doctor-img">
@@ -55,13 +49,13 @@
 	               </div>
 	            </div>
                 <div class="content mt-3">
-                	<h4 class="mb-0"><a href="doctor-single.html">Thomas Henry</a></h4>
-                	<p>Cardiology</p>
+                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></h4>
+                	<p>Improves efficacy <br> Reduces procedure time</p>
                 </div> 
 	      	</div>
       	</div>
 
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat2&quot;]">
+      <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
         	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 		        	<div class="doctor-img">
@@ -69,13 +63,13 @@
 		            </div>
 	            </div>
                 <div class="content mt-3">
-                	<h4 class="mb-0"><a href="doctor-single.html">Harrision Samuel</a></h4>
-                	<p>Radiology</p>
+                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's</a></h4>
+                	<p>Sterile pigment for endopigmentation</p>
                 </div> 
 	      	</div>
       </div>
 
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat3&quot;]">
+      <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
         	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 		        	<div class="doctor-img">
@@ -83,22 +77,8 @@
 		            </div>
 	            </div>
                 <div class="content mt-3">
-                	<h4 class="mb-0"><a href="doctor-single.html">Alexandar James</a></h4>
-                	<p>Dental</p>
-                </div> 
-	      	</div>
-      </div>
-
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat3&quot;,&quot;cat4&quot;]">
-        	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-		        	<div class="doctor-img">
-		               <img src="images/team/4.jpg" alt="doctor-image" class="img-fluid w-100">
-		            </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="doctor-single.html">Edward john</a></h4>
-                	<p>Pediatry</p>
+                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></h4>
+                	<p>Highlights anomalies in the mucosal relief</p>
                 </div> 
 	      	</div>
       </div>
@@ -124,8 +104,8 @@
 	   </div>
    </div>
    <div class="container">
-   <div class="row shuffle-wrapper portfolio-gallery justify-content-center">
-	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat1&quot;,&quot;cat2&quot;]">
+   <div class="row portfolio-gallery justify-content-center">
+	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item">
 		<div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			 <div class="doctor-img">
@@ -135,7 +115,7 @@
 		</div>
 	</div>
 
-    <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;cat2&quot;]">
+    <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
 	  <div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			  <div class="doctor-img">

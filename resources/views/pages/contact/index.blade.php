@@ -116,7 +116,7 @@
 <div class="mapouter">
     <div class="gmap_canvas">
         <style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}iframe{ width: 100%;}</style>
-        <iframe height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=39%20Rue%20du%20val%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <iframe height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=210%20Avenue%20Aristide%20Briand%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         <a href="https://123movies-to.org"></a><br>
         <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
         <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
