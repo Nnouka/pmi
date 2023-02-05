@@ -105,7 +105,7 @@
    </div>
    <div class="container">
    <div class="row portfolio-gallery justify-content-center">
-	<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item">
+	<div class="col-lg-4 col-sm-4 col-md-4 mb-4 shuffle-item">
 		<div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			 <div class="doctor-img">
@@ -115,7 +115,7 @@
 		</div>
 	</div>
 
-    <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
+    <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
 	  <div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			  <div class="doctor-img">
@@ -124,6 +124,33 @@
 		  </div>
 		</div>
     </div>
+	<div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+		<div class="position-relative doctor-inner-box">
+			<div class="doctor-profile">
+				<div class="doctor-img">
+				   <img src="images\partners\creo_medical.jpg" alt="partner-image" class="img-fluid w-100">
+				</div>
+			</div>
+		  </div>
+	  </div>
+	  <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+		<div class="position-relative doctor-inner-box">
+			<div class="doctor-profile">
+				<div class="doctor-img">
+				   <img src="images\partners\Duomed-22_logo_pos_cmyk.png" alt="partner-image" class="img-fluid w-100">
+				</div>
+			</div>
+		  </div>
+	  </div>
+	  <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+		<div class="position-relative doctor-inner-box">
+			<div class="doctor-profile">
+				<div class="doctor-img">
+				   <img src="images\partners\Vytil_Color.png" alt="partner-image" class="img-fluid w-100">
+				</div>
+			</div>
+		  </div>
+	  </div>
 	</div>
 </div>
 
