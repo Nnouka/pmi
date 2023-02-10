@@ -21,20 +21,21 @@
 <!-- portfolio -->
 <section class="section doctors">
   <div class="container">
-  	  <div class="row justify-content-center">
-             <div class="col-lg-6 text-center">
-                <div class="section-title">
-                    <h2>Vision</h2>
-                    <div class="divider mx-auto my-4"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</p>
-                </div>
-            </div>
-        </div>
-
+	<div class="row justify-content-center">
+		<div class="col-lg-9 text-center">
+		   <div class="section-title">
+			   <h2>Notre Mission</h2>
+			   <div class="divider mx-auto my-4"></div>
+			   <h4 class=" text-justify">Afin de remplir notre mission dans le respect de nos valeurs, nous sommes engagés dans une
+				maitrise de notre système Qualité. La norme NF EN ISO 13485-2016 constitue la référence
+				constante pour la maitrise de notre système Qualité.</h4>
+		   </div>
+	   </div>
+	</div>
 		<div class="row justify-content-center">
 			<div class="col-lg-6 text-center">
 			   <div class="section-title">
-				   <h2>Our Products</h2>
+				   <h2>Nos Produits</h2>
 				   <div class="divider mx-auto my-4"></div>
 			   </div>
 		   </div>
@@ -86,20 +87,36 @@
   </div>
 </section>
 <!-- /portfolio -->
-@include('partials.appointment')
+@include('partials.appointment') <br>
 <div class="row justify-content-center">
 	<div class="col-lg-6 text-center">
 	   <div class="section-title">
-		   <h2>Our Values</h2>
+		   <h2>Nos Valeurs</h2>
 		   <div class="divider mx-auto my-4"></div>
-		   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</h5>
+			<ul class="text-justify">
+				<li>Satisfaction des clients</li>
+				<li>Qualité de service</li>							
+				<li>Valorisation des collaborateurs</li>
+				<li>Intégrité</li>
+				<li>Innovation</li>					
+			</ul>
+		   <p class="text-justify col-lg-48">Apporter à nos clients le meilleur niveau de service dans les domaines de la préparation de
+			   solutions de marquage et d'identification de lésions ou de tumeurs afin de contribuer à
+			   l'amélioration de la santé des patients souffrant de ce type de pathologies.
+		   </p>
+		   <p class="text-justify col-lg-24">Pour ce faire, nous avons mis en place :</p>
+			<ul class="text-justify">
+				<li>Un Manuel Qualité</li>
+				<li>Une cartographie des processus</li>							
+				<li>Des procédures</li>					
+			</ul>
 	   </div>
    </div>
 </div>
 <div class="row justify-content-center">
 	<div class="col-lg-6 text-center">
 	   <div class="section-title partners">
-		   <h2>Our Partners</h2>
+		   <h2>Nos Partenaires</h2>
 		   <div class="divider mx-auto my-4"></div>
 	   </div>
    </div>
@@ -119,7 +136,8 @@
 	  <div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			  <div class="doctor-img">
-				 <img src="images\partners\Diagmed-Healthcare.png" alt="partner-image" class="img-fluid w-100">
+				<a href="https://diagmed.healthcare/">
+				 <img src="images\partners\Diagmed-Healthcare.png" alt="partner-image" class="img-fluid w-100"></a>
 			  </div>
 		  </div>
 		</div>
@@ -137,7 +155,8 @@
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
-				   <img src="images\partners\Duomed-22_logo_pos_cmyk.png" alt="partner-image" class="img-fluid w-100">
+					<a href="https://www.duomed.com/fr-FR-x-endo">
+				   <img src="images\partners\Duomed-22_logo_pos_cmyk.png" alt="partner-image" class="img-fluid w-100"></a>
 				</div>
 			</div>
 		  </div>
