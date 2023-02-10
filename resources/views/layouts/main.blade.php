@@ -120,7 +120,7 @@
 			  	</li> -->
 
 			  	<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="{{route('service')}}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="icofont-thin-down"></i></a>
+					<a class="nav-link dropdown-toggle" href="{{route('service')}}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produits <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
 						<li><a class="dropdown-item" href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
 						<li><a class="dropdown-item" href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's</a></li>
@@ -136,7 +136,7 @@
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
 			  	</li> -->
-				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">News</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">Nouvelles</a></li>
 
 			   <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
 			</ul>
