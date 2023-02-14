@@ -136,7 +136,7 @@
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
 			  	</li> -->
-				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">Nouvelles</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">À propos</a></li>
 
 			   <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
 			</ul>
@@ -174,24 +174,24 @@
 					<div class="divider mb-4"></div>
 
 					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Company Support </a></li>
-						<li><a href="#">FAQuestions</a></li>
-						<li><a href="#">Company Licence</a></li>
+						<li><a href="#">Derm Terch</a></li>
+						<li><a href="#">Blue Lift</a></li>
+						<li><a href="#">185 Cender's </a></li>
+						<li><a href="#">Indigo Carmine</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="widget widget-contact mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Get in Touch</h4>
+					<h4 class="text-capitalize mb-3">Contactez-nous</h4>
 					<div class="divider mb-4"></div>
 
 					<div class="footer-contact-block mb-4">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-email mr-3"></i>
-							<span class="h6 mb-0">Support Available for 24/7</span>
+							<span class="h6 mb-0">Soutien Disponible pour 24/7</span>
 						</div>
 						<h4 class="mt-2"><a href="mailto:infos@derm-tech.com">infos@derm-tech.com</a></h4>
 					</div>
@@ -199,7 +199,7 @@
 					<div class="footer-contact-block">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-support mr-3"></i>
-							<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
+							<span class="h6 mb-0">Lun à Ven : 08:30 - 18:00</span>
 						</div>
 						<h4 class="mt-2"><a href="tel:+33(0)148-026-163">+33(0)148-026-163</a></h4>
 					</div>
@@ -211,14 +211,13 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Mungwin</span> by <a href="https://mungwin.com" target="_blank">Mungwin</a>
+						&copy; Copyright Reserved to <span class="text-color">Derm Tech</span> by <a href="https://dermtechfr.herokuapp.com/" target="_blank">Derm Tech France</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
 						<form action="#" class="subscribe">
 							<input type="text" class="form-control" placeholder="Your Email address">
-							<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
 						</form>
 					</div>
 				</div>

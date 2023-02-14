@@ -10,8 +10,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">Our blog</span>
-          <h1 class="text-capitalize mb-5 text-lg">Blog articles</h1>
+          <h1 class="text-capitalize mb-5 text-lg">Qui Sommes Nous?</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -123,7 +122,7 @@
         </div>
 	</div>
 
-	<div class="sidebar-widget category mb-3">
+	{{-- <div class="sidebar-widget category mb-3">
 		<h5 class="mb-4">Categories</h5>
 
 		<ul class="list-unstyled">
@@ -206,7 +205,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> --}}
 </section>
 
 @endsection

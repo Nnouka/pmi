@@ -7,10 +7,10 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-6">
+      <div class="col-lg-9">
         <div class="block text-center">
-          <h1 class="text-capitalize mb-5 text-lg">Derm Tech France</h1>
-			<p>We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque </p>
+          <h1 class="text-capitalize mb-4 text-lg">Derm Tech France</h1>
+			<p>Spécialisés dans la fabrication de marqueurs endoscopiques, avec pour mission d’apporter à nos  clients le meilleur niveau de service dans les domaines de la préparation de solutions de marquage et  d’identification de lésions ou de tumeurs afin de contribuer à l'amélioration de la santé des patients  souffrant de ce type de pathologies.  </p>
         </div>
       </div>
     </div>
