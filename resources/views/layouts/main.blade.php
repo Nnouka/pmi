@@ -136,7 +136,7 @@
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
 			  	</li> -->
-				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">À propos</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">Catalogue</a></li>
 
 			   <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
 			</ul>

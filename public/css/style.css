@@ -118,8 +118,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-main:hover {
-  background: #07a2ef;
-  border-color: #07a2ef;
+  background: #0ec4e4;
+  border-color: #0ec4e4;
   color: #fff;
 }
 
@@ -296,7 +296,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #07a2ef;
+  color: #0ec4e4;
   text-decoration: none;
 }
 
@@ -390,7 +390,7 @@ a:focus {
 }
 
 #navbarmain .nav-link:hover  {
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 @media (max-width: 990px) {
@@ -421,7 +421,7 @@ a:focus {
   visibility: hidden;
   transition: all 0.3s ease-out 0s;
   border: 0px;
-  border-top: 5px solid #07a2ef;
+  border-top: 5px solid #0ec4e4;
   border-radius: 0px;
 }
 
@@ -440,7 +440,7 @@ a:focus {
 }
 
 .dropdown .dropdown-item:hover {
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 .header-top-bar {
@@ -503,13 +503,13 @@ a:focus {
 }
 
 .text-color-2 {
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 .divider {
   width: 60px;
   height: 5px;
-  background: #07a2ef;
+  background: #0ec4e4;
 }
 
 @media (max-width: 480px) {
@@ -691,7 +691,7 @@ a:focus {
 }
 
 .service i {
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 .service h4 {
@@ -739,7 +739,7 @@ a:focus {
 .doctors .btn-group .btn.active {
   box-shadow: none !important;
   border-color: transparent;
-  background: #07a2ef;
+  background: #0ec4e4;
   color: #fff;
 }
 
@@ -751,14 +751,14 @@ a:focus {
 .doctors .btn-group .btn:focus {
   box-shadow: none !important;
   border-color: transparent;
-  background: #07a2ef;
+  background: #0ec4e4;
   color: #fff;
 }
 
 .doctors .btn-group .btn:hover {
   box-shadow: none !important;
   border-color: transparent;
-  background: #07a2ef;
+  background: #0ec4e4;
   color: #fff;
 }
 
@@ -796,7 +796,7 @@ a:focus {
 
 .doctor-info li i {
   margin-right: 20px;
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 .read-more {
@@ -949,7 +949,7 @@ a:focus {
 
 .testimonial-block.style-2 i {
   bottom: -20px;
-  color: #07a2ef;
+  color: #0ec4e4;
   opacity: .3;
 }
 
@@ -1308,7 +1308,7 @@ a:focus {
   bottom: 0px;
   width: 35px;
   height: 3px;
-  background: #07a2ef;
+  background: #0ec4e4;
 }
 
 .sidebar-widget.latest-post .media img {
@@ -1421,7 +1421,7 @@ a:focus {
 }
 
 .widget .footer-menu a:hover {
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 .footer-contact-block span {
@@ -1454,7 +1454,7 @@ a:focus {
 }
 
 .widget-contact h6 i {
-  color: #07a2ef;
+  color: #0ec4e4;
 }
 
 .subscribe {
@@ -1476,7 +1476,7 @@ a:focus {
 
 .backtop {
   position: fixed;
-  background: #07a2ef;
+  background: #0ec4e4;
   z-index: 9999;
   display: inline-block;
   right: 55px;

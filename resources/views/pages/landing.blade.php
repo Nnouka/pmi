@@ -100,16 +100,6 @@
 				<li>Intégrité</li>
 				<li>Innovation</li>					
 			</ul>
-		   <p class="text-justify col-lg-48">Apporter à nos clients le meilleur niveau de service dans les domaines de la préparation de
-			   solutions de marquage et d'identification de lésions ou de tumeurs afin de contribuer à
-			   l'amélioration de la santé des patients souffrant de ce type de pathologies.
-		   </p>
-		   <p class="text-justify col-lg-24">Pour ce faire, nous avons mis en place :</p>
-			<ul class="text-justify">
-				<li>Un Manuel Qualité</li>
-				<li>Une cartographie des processus</li>							
-				<li>Des procédures</li>					
-			</ul>
 	   </div>
    </div>
 </div>
@@ -137,7 +127,7 @@
 		  <div class="doctor-profile">
 			  <div class="doctor-img">
 				<a href="https://diagmed.healthcare/">
-				 <img src="images\partners\Diagmed-Healthcare.png" alt="partner-image" class="img-fluid w-100"></a>
+				 <img src="images\partners\Diagmed-Healthcare.png" alt="partner-image" class="img-fluid w-70"></a>
 			  </div>
 		  </div>
 		</div>
@@ -146,7 +136,7 @@
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
-				   <img src="images\partners\creo_medical.jpg" alt="partner-image" class="img-fluid w-100">
+				   <img src="images\partners\creo_medical.jpg" alt="partner-image" class="img-fluid w-70">
 				</div>
 			</div>
 		  </div>
@@ -156,7 +146,7 @@
 			<div class="doctor-profile">
 				<div class="doctor-img">
 					<a href="https://www.duomed.com/fr-FR-x-endo">
-				   <img src="images\partners\Duomed-22_logo_pos_cmyk.png" alt="partner-image" class="img-fluid w-100"></a>
+				   <img src="images\partners\Duomed-22_logo_pos_cmyk.png" alt="partner-image" class="img-fluid w-70"></a>
 				</div>
 			</div>
 		  </div>
@@ -165,7 +155,7 @@
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
-				   <img src="images\partners\Vytil_Color.png" alt="partner-image" class="img-fluid w-100">
+				   <img src="images\partners\Vytil_Color.png" alt="partner-image" class="img-fluid w-70">
 				</div>
 			</div>
 		  </div>
