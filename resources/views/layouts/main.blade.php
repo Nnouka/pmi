@@ -217,7 +217,7 @@
 				<div class="col-lg-6">
 					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
 						<form action="#" class="subscribe">
-							<input type="text" class="form-control" placeholder="Your Email address">
+							<input type="text" class="form-control" placeholder="Votre Adresse E-mail">
 						</form>
 					</div>
 				</div>

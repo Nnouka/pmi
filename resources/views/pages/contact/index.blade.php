@@ -9,8 +9,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">Contact Us</span>
-          <h1 class="text-capitalize mb-5 text-lg">Get in Touch</h1>
+          <span class="text-white">Contactez-nous</span>
+          <h1 class="text-capitalize mb-5 text-lg">Entrer en contact</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -30,21 +30,21 @@
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-live-support"></i>
-                    <h5>Call Us</h5>
+                    <h5>Contactez-nous</h5>
                      +33(0)148-026-163
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-support-faq"></i>
-                    <h5>Email Us</h5>
+                    <h5>Envoyez-nous un email</h5>
                      infos@derm-tech.com
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-location-pin"></i>
-                    <h5>Location</h5>
+                    <h5>Emplacement</h5>
                      93320 Les Pavillons-sous-Bois
                 </div>
             </div>
@@ -57,7 +57,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center">
-                    <h2 class="text-md mb-2">Contact us</h2>
+                    <h2 class="text-md mb-2">Contactez-nous</h2>
                     <div class="divider mx-auto my-4"></div>
                     <p class="mb-5">Laboriosam exercitationem molestias beatae eos pariatur, similique, excepturi mollitia sit perferendis maiores ratione aliquam?</p>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                Your message was sent successfully.
+                                Votre message a bien été envoyé
                             </div>
                         </div>
                     </div>
@@ -78,33 +78,33 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Your Full Name" >
+                                <input name="name" id="name" type="text" class="form-control" placeholder="Ton Nom complet" >
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="email" id="email" type="email" class="form-control" placeholder="Your Email Address">
+                                <input name="email" id="email" type="email" class="form-control" placeholder="Votre Adresse E-mail">
                             </div>
                         </div>
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="subject" id="subject" type="text" class="form-control" placeholder="Your Query Topic">
+                                <input name="subject" id="subject" type="text" class="form-control" placeholder="Votre Sujet de Requête">
                             </div>
                         </div>
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="phone" id="phone" type="text" class="form-control" placeholder="Your Phone Number">
+                                <input name="phone" id="phone" type="text" class="form-control" placeholder="Votre Numéro de Téléphone">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group-2 mb-4">
-                        <textarea name="message" id="message" class="form-control" rows="8" placeholder="Your Message"></textarea>
+                        <textarea name="message" id="message" class="form-control" rows="8" placeholder="Votre Message"></textarea>
                     </div>
 
                     <div class="text-center">
-                        <input class="btn btn-main btn-round-full" name="submit" type="submit" value="Send Messege"></input>
+                        <input class="btn btn-main btn-round-full" name="submit" type="submit" value="Envoyer"></input>
                     </div>
                 </form>
             </div>
