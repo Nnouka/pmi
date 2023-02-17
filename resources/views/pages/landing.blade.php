@@ -39,14 +39,14 @@
 				   <div class="divider mx-auto my-4"></div>
 			   </div>
 		   </div>
-		</div>>
+		</div>
 
     <div class="row portfolio-gallery justify-content-center">
       	<div class="col-lg-3 col-sm-6 col-md-6 mb-4">
 	      	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 	               <div class="doctor-img">
-	               		<img src="images/team/1.jpg" alt="doctor-image" class="img-fluid w-100">
+	               		<img src="images/team/Bluelift.png" alt="doctor-image" class="img-fluid w-100">
 	               </div>
 	            </div>
                 <div class="content mt-3">
@@ -60,7 +60,7 @@
         	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 		        	<div class="doctor-img">
-		               <img src="images/team/2.jpg" alt="doctor-image" class="img-fluid w-100">
+		               <img src="images/team/Cenders.png" alt="doctor-image" class="img-fluid w-100">
 		            </div>
 	            </div>
                 <div class="content mt-3">
@@ -74,7 +74,7 @@
         	<div class="position-relative doctor-inner-box">
 		        <div class="doctor-profile">
 		        	<div class="doctor-img">
-		               <img src="images/team/3.jpg" alt="doctor-image" class="img-fluid w-100">
+		               <img src="images/team/Indigo.png" alt="doctor-image" class="img-fluid w-100">
 		            </div>
 	            </div>
                 <div class="content mt-3">
