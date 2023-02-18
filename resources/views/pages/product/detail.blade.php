@@ -40,6 +40,14 @@
       @endforeach
     </div>
     @endif
+    @if(isset($product->intended_use_lines) && count($product->intended_use_lines) > 0 && strlen($product->intended_use_lines[0]) > 0)
+    <div class="col-lg-4 col-md-4 col-sm-12 mt-2" style="color: white;">
+      <h3 style="color: #ccc;">Intended Use</h3>
+      @foreach($product->intended_use_lines as $intended_use)
+          <p>{{ $intended_use }}</p>
+      @endforeach
+    </div>
+    @endif
    </div>
     @include('partials.product.manufacturer')
 </section>
