@@ -1,4 +1,4 @@
-<div class="col-lg-3 col-sm-6 col-md-6 m-2 shadow">
+<div class="col-lg-3 col-sm-6 col-md-6 m-{{$m}} shadow">
     <div class="position-relative doctor-inner-box">
         <div class="doctor-profile">
             <div class="doctor-img">

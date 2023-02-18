@@ -43,7 +43,7 @@
 
     <div class="row portfolio-gallery justify-content-center">
       	@foreach($products as $product)
-			@include('partials.product.product-card', ['product' => $product])
+			@include('partials.product.product-card', ['product' => $product, 'm' => 2])
 		@endforeach
     </div>
   </div>

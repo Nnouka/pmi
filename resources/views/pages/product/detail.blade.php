@@ -25,6 +25,7 @@
   </svg>
 </section>
 <section class="details-wrapper">
+    @include('partials.product.product-card', ['product' => $product, 'm' => 0])
     @include('partials.product.manufacturer')
 </section>
 <!-- /portfolio -->
