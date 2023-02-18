@@ -3,7 +3,7 @@
 @section('title', $product->name)
 @section('content')
 
-<section class="product-header">
+<section class="product-header pt-0">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
