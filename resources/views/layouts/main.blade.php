@@ -211,14 +211,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Derm Tech</span> by <a href="https://dermtechfr.herokuapp.com/" target="_blank">Derm Tech France</a>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-						<form action="#" class="subscribe">
-							<input type="text" class="form-control" placeholder="Votre Adresse E-mail">
-						</form>
+						&copy; Copyright <a href="{{route('home')}}" target="_blank">Derm Tech France</a>
 					</div>
 				</div>
 			</div>

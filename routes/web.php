@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\LandingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +15,7 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.landing');
-})->name('home');
+Route::get('/', [LandingController::class, 'index'])->name('home');
 Route::get('/service', function () {
     return view('pages.service.index');
 })->name('service');

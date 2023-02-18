@@ -42,47 +42,9 @@
 		</div>
 
     <div class="row portfolio-gallery justify-content-center">
-      	<div class="col-lg-3 col-sm-6 col-md-6 mb-4">
-	      	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-	               <div class="doctor-img">
-	               		<img src="images/team/Bluelift.png" alt="doctor-image" class="img-fluid w-100">
-	               </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></h4>
-                	<p>Improves efficacy <br> Reduces procedure time</p>
-                </div> 
-	      	</div>
-      	</div>
-
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
-        	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-		        	<div class="doctor-img">
-		               <img src="images/team/Cenders.png" alt="doctor-image" class="img-fluid w-100">
-		            </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's</a></h4>
-                	<p>Sterile pigment for endopigmentation</p>
-                </div> 
-	      	</div>
-      </div>
-
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
-        	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-		        	<div class="doctor-img">
-		               <img src="images/team/Indigo.png" alt="doctor-image" class="img-fluid w-100">
-		            </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></h4>
-                	<p>Highlights anomalies in the mucosal relief</p>
-                </div> 
-	      	</div>
-      </div>
+      	@foreach($products as $product)
+			@include('partials.product.product-card', ['product' => $product])
+		@endforeach
     </div>
   </div>
 </section>
@@ -112,7 +74,7 @@
    </div>
    <div class="container">
    <div class="row portfolio-gallery justify-content-center">
-	<div class="col-lg-4 col-sm-4 col-md-4 mb-4 shuffle-item">
+	<div class="col-lg-2 col-sm-4 col-md-3 mb-4 shuffle-item">
 		<div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			 <div class="doctor-img">
@@ -122,7 +84,7 @@
 		</div>
 	</div>
 
-    <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+    <div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 	  <div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			  <div class="doctor-img">
@@ -132,7 +94,7 @@
 		  </div>
 		</div>
     </div>
-	<div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+	<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
@@ -141,7 +103,7 @@
 			</div>
 		  </div>
 	  </div>
-	  <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+	  <div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
@@ -151,7 +113,7 @@
 			</div>
 		  </div>
 	  </div>
-	  <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+	  <div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
