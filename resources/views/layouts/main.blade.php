@@ -175,10 +175,10 @@
 
 					<ul class="list-unstyled footer-menu lh-35">
 						<li><a href="#">Derm Terch</a></li>
-						<li><a href="#">Blue Lift</a></li>
-						<li><a href="#">185 Cender's </a></li>
-						<li><a href="#">Indigo Carmine</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
+						<li><a href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's </a></li>
+						<li><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li>
+						<li><a href="{{route('contact')}}">Contact</a></li>
 					</ul>
 				</div>
 			</div>
