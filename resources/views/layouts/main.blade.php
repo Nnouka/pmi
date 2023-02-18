@@ -251,7 +251,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
     
     <script src="{{asset('js/script.js')}}"></script>
-    <script src="{{asset('js/contact.js')}}"></script>
+    {{-- <script src="{{asset('js/contact.js')}}"></script>Ò --}}
 
   </body>
   </html>

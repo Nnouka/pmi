@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,7 @@ Route::get('/news', function () {
 Route::get('/contact', function () {
     return view('pages.contact.index');
 })->name('contact');
+Route::post('/contact/mail', [ContactController::class, 'mail'])->name('contact.mail');
 Route::get('/appointment', function () {
     return view('pages.appointment');
 })->name('appointment');
