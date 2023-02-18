@@ -1508,7 +1508,7 @@ section:has(.manufacturer-wrapper){
   min-height: 540px;
 }
 .manufacturer-wrapper {
-  position:absolute;
+  position: static;
   right:0;
   bottom:0;
   border-top: 4px solid #333;
@@ -1553,6 +1553,9 @@ section:has(.manufacturer-wrapper){
     height:300px;
     z-index:-1;
     bottom: 180px;
+  }
+  .manufacturer-wrapper {
+    position: absolute;
   }
 }
 /*# sourceMappingURL=maps/style.css.map */

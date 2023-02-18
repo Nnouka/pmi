@@ -25,7 +25,7 @@
    <div class="row" style="margin: 0 15px;">
     @include('partials.product.product-card', ['product' => $product, 'm' => 0])
     @if(isset($product->packaging_lines) && count($product->packaging_lines)  > 0 && strlen($product->packaging_lines[0]) > 0)
-      <div class="col-4" style="color: white;">
+      <div class="col-lg-4 col-md-4 col-sm-12 mt-2" style="color: white;">
         <h3 style="color: #ccc;">Packaging</h3>
         @foreach($product->packaging_lines as $packaging)
             <p>{{ $packaging }}</p>
@@ -33,7 +33,7 @@
       </div>
     @endif
     @if(isset($product->composition_lines) && count($product->composition_lines) > 0 && strlen($product->composition_lines[0]) > 0)
-    <div class="col-4" style="color: white;">
+    <div class="col-lg-4 col-md-4 col-sm-12 mt-2" style="color: white;">
       <h3 style="color: #ccc;">Composition</h3>
       @foreach($product->composition_lines as $composition)
           <p>{{ $composition }}</p>
