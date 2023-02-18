@@ -53,6 +53,8 @@ class ProductController extends Controller
             $product->images = \explode("|", $product->images);
             $product->description_lines = \explode("|", $product->description);
             $product->infos = \explode("|", $product->info);
+            $product->composition_lines = \explode("|", $product->composition);
+            $product->packaging_lines = \explode("|", $product->packaging);
             $manufacturer = Manufacturer::find($product->manufacturer_id);
         }
         return view('pages.product.detail', [
