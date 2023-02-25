@@ -201,7 +201,7 @@
 							<i class="icofont-support mr-3"></i>
 							<span class="h6 mb-0">Lun à Ven : 08:30 - 18:00</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+33(0)148-026-163">+33(0)148-026-163</a></h4>
+						<h4 class="mt-2"><a href="tel:+33(0)148-026-163">+33 1 48-02-61-63</a></h4>
 					</div>
 				</div>
 			</div>

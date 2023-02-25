@@ -1558,4 +1558,7 @@ section:has(.manufacturer-wrapper){
     position: absolute;
   }
 }
+.contact-h-3 {
+  height: 250px;
+}
 /*# sourceMappingURL=maps/style.css.map */

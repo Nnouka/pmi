@@ -32,21 +32,21 @@
     <div class="container">
          <div class="row">
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="contact-block mb-4 mb-lg-0">
+                <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-live-support"></i>
                     <h5>Contactez-nous</h5>
                     +33 1 48-02-61-63
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="contact-block mb-4 mb-lg-0">
+                <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-support-faq"></i>
                     <h5>Envoyez-nous un email</h5>
                      infos@derm-tech.com
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="contact-block mb-4 mb-lg-0">
+                <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-location-pin"></i>
                     <h5>Emplacement</h5>
                     Address 210 avenue Aristide Briand 93320 Les Pavillons-sous-Bois
