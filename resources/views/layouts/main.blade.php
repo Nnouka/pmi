@@ -84,9 +84,9 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-						<a href="tel:+23-345-67890" >
+						<a href="tel:+33148026163" >
 							<span>Call Now : </span>
-							<span class="h4">+33(0)148-026-163</span>
+							<span class="h4">+33 1 48-02-61-63</span>
 						</a>
 					</div>
 				</div>
