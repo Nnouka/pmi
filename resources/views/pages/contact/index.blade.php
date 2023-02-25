@@ -35,7 +35,7 @@
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-live-support"></i>
                     <h5>Contactez-nous</h5>
-                     +33(0)148-026-163
+                    +33 1 48-02-61-63
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
@@ -49,7 +49,7 @@
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-location-pin"></i>
                     <h5>Emplacement</h5>
-                     93320 Les Pavillons-sous-Bois
+                    Address 210 avenue Aristide Briand 93320 Les Pavillons-sous-Bois
                 </div>
             </div>
         </div>

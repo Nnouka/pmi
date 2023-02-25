@@ -79,7 +79,7 @@
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
 						<li class="list-inline-item"><a href="mailto:infos@derm-tech.com"><i class="icofont-support-faq mr-2"></i>infos@derm-tech.com</a></li>
-						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address 210 avenue Aristide Briand </li>
+						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address 210 avenue Aristide Briand 93320 Les Pavillons-sous-Bois</li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
