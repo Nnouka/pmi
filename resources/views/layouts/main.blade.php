@@ -158,13 +158,6 @@
 					<div class="logo mb-4">
 						<img src="images/logo.png" alt="" class="img-fluid">
 					</div>
-					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
-
-					<ul class="list-inline footer-socials mt-4">
-						<li class="list-inline-item"><a href="#"><i class="icofont-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="icofont-linkedin"></i></a></li>
-					</ul>
 				</div>
 			</div>
 
