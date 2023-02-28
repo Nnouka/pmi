@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Product;
-use App\Models\Manufacturer;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contact;
 
-class ProductController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,36 +34,24 @@ class ProductController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function mail(Request $request)
     {
-        //
+        Mail::to('infos@derm-tech.com')->send(new Contact(
+            $request->name, $request->email, $request->phone, $request->subject, $request->message
+        ));
+        $request->session()->flash('status', true);
+        return \redirect()->back();
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  string $slug
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($slug)
+    public function show($id)
     {
-        $product = Product::where('slug', $slug)->first();
-        $manufacturer = null;
-        if ($product != null) {
-            $product->images = \explode("|", $product->images);
-            $product->description_lines = \explode("|", $product->description);
-            $product->infos = \explode("|", $product->info);
-            $product->composition_lines = \explode("|", $product->composition);
-            $product->packaging_lines = \explode("|", $product->packaging);
-            $product->intended_use_lines = \explode("|", $product->intended_use);
-            $manufacturer = Manufacturer::find($product->manufacturer_id);
-        }
-        return view('pages.product.detail', [
-            'product' => $product,
-            'manufacturer' => $manufacturer,
-            'title' => $product->name,
-            'description' => $product->description,
-        ]);
+        //
     }
 
     /**

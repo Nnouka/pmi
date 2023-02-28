@@ -85,6 +85,9 @@
                 </div> 
 	      	</div>
       </div>
+      	@foreach($products as $product)
+			@include('partials.product.product-card', ['product' => $product, 'm' => 2])
+		@endforeach
     </div>
   </div>
 </section>
@@ -114,7 +117,7 @@
    </div>
    <div class="container">
    <div class="row portfolio-gallery justify-content-center">
-	<div class="col-lg-4 col-sm-4 col-md-4 mb-4 shuffle-item">
+	<div class="col-lg-2 col-sm-4 col-md-3 mb-4 shuffle-item">
 		<div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			 <div class="doctor-img">
@@ -124,7 +127,7 @@
 		</div>
 	</div>
 
-    <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+    <div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 	  <div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			  <div class="doctor-img">
@@ -134,7 +137,7 @@
 		  </div>
 		</div>
     </div>
-	<div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+	<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
@@ -143,7 +146,7 @@
 			</div>
 		  </div>
 	  </div>
-	  <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+	  <div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
@@ -153,7 +156,7 @@
 			</div>
 		  </div>
 	  </div>
-	  <div class="col-lg-4 col-sm-4 col-md-4 mb-4">
+	  <div class="col-lg-2 col-sm-4 col-md-3 mb-4">
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">

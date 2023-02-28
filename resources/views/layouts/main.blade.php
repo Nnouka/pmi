@@ -79,14 +79,14 @@
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
 						<li class="list-inline-item"><a href="mailto:infos@derm-tech.com"><i class="icofont-support-faq mr-2"></i>infos@derm-tech.com</a></li>
-						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address 210 avenue Aristide Briand </li>
+						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address 210 avenue Aristide Briand 93320 Les Pavillons-sous-Bois</li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-						<a href="tel:+23-345-67890" >
+						<a href="tel:+33148026163" >
 							<span>Call Now : </span>
-							<span class="h4">+33(0)148-026-163</span>
+							<span class="h4">+33 1 48-02-61-63</span>
 						</a>
 					</div>
 				</div>
@@ -158,13 +158,6 @@
 					<div class="logo mb-4">
 						<img src="images/logo.png" alt="" class="img-fluid">
 					</div>
-					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
-
-					<ul class="list-inline footer-socials mt-4">
-						<li class="list-inline-item"><a href="#"><i class="icofont-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="icofont-linkedin"></i></a></li>
-					</ul>
 				</div>
 			</div>
 
@@ -175,10 +168,10 @@
 
 					<ul class="list-unstyled footer-menu lh-35">
 						<li><a href="#">Derm Terch</a></li>
-						<li><a href="#">Blue Lift</a></li>
-						<li><a href="#">185 Cender's </a></li>
-						<li><a href="#">Indigo Carmine</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
+						<li><a href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's </a></li>
+						<li><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li>
+						<li><a href="{{route('contact')}}">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -201,7 +194,7 @@
 							<i class="icofont-support mr-3"></i>
 							<span class="h6 mb-0">Lun à Ven : 08:30 - 18:00</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+33(0)148-026-163">+33(0)148-026-163</a></h4>
+						<h4 class="mt-2"><a href="tel:+33(0)148-026-163">+33 1 48-02-61-63</a></h4>
 					</div>
 				</div>
 			</div>
@@ -211,14 +204,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Derm Tech</span> by <a href="https://dermtechfr.herokuapp.com/" target="_blank">Derm Tech France</a>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-						<form action="#" class="subscribe">
-							<input type="text" class="form-control" placeholder="Votre Adresse E-mail">
-						</form>
+						&copy; Copyright <a href="{{route('home')}}" target="_blank">Derm Tech France</a>
 					</div>
 				</div>
 			</div>
@@ -258,7 +244,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
     
     <script src="{{asset('js/script.js')}}"></script>
-    <script src="{{asset('js/contact.js')}}"></script>
+    {{-- <script src="{{asset('js/contact.js')}}"></script>Ò --}}
 
   </body>
   </html>

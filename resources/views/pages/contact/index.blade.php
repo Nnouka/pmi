@@ -2,7 +2,17 @@
  
 @section('title', 'Contact Us')
 @section('content')
-
+<section>
+    @if(Session::get('status'))
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-success contact__msg" role="alert">
+                    Votre message a bien été envoyé
+                </div>
+            </div>
+        </div>
+    @endif
+</section>
 <section class="page-title bg-1">
   <div class="overlay"></div>
   <div class="container">
@@ -11,12 +21,6 @@
         <div class="block text-center">
           <span class="text-white">Contactez-nous</span>
           <h1 class="text-capitalize mb-5 text-lg">Entrer en contact</h1>
-
-          <!-- <ul class="list-inline breadcumb-nav">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
-          </ul> -->
         </div>
       </div>
     </div>
@@ -28,24 +32,24 @@
     <div class="container">
          <div class="row">
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="contact-block mb-4 mb-lg-0">
+                <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-live-support"></i>
                     <h5>Contactez-nous</h5>
-                     +33(0)148-026-163
+                    +33 1 48-02-61-63
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="contact-block mb-4 mb-lg-0">
+                <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-support-faq"></i>
                     <h5>Envoyez-nous un email</h5>
                      infos@derm-tech.com
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="contact-block mb-4 mb-lg-0">
+                <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-location-pin"></i>
                     <h5>Emplacement</h5>
-                     93320 Les Pavillons-sous-Bois
+                    Address 210 avenue Aristide Briand 93320 Les Pavillons-sous-Bois
                 </div>
             </div>
         </div>
@@ -59,21 +63,14 @@
                 <div class="section-title text-center">
                     <h2 class="text-md mb-2">Contactez-nous</h2>
                     <div class="divider mx-auto my-4"></div>
-                    <p class="mb-5">Laboriosam exercitationem molestias beatae eos pariatur, similique, excepturi mollitia sit perferendis maiores ratione aliquam?</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <form id="contact-form" class="contact__form " method="post" action="mail.php">
+                <form id="contact-form" class="contact__form " method="post" action="{{route('contact.mail')}}">
                  <!-- form message -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                Votre message a bien été envoyé
-                            </div>
-                        </div>
-                    </div>
+                    @csrf
 
                     <div class="row">
                         <div class="col-lg-6">
@@ -104,7 +101,7 @@
                     </div>
 
                     <div class="text-center">
-                        <input class="btn btn-main btn-round-full" name="submit" type="submit" value="Envoyer"></input>
+                        <input class="btn btn-main btn-round-full" type="submit" value="Envoyer">
                     </div>
                 </form>
             </div>
