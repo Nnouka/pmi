@@ -42,49 +42,6 @@
 		</div>
 
     <div class="row portfolio-gallery justify-content-center">
-      	<div class="col-lg-3 col-sm-6 col-md-6 mb-4">
-	      	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-	               <div class="doctor-img">
-					<a href="{{route('product', ['slug' => 'bluelift'])}}">
-	               		<img class="col-md-9" src="images/team/Bluelift_1.png" alt="doctor-image" class="img-fluid w-100"></a>
-	               </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></h4>
-                	<p>Improves efficacy <br> Reduces procedure time</p>
-                </div> 
-	      	</div>
-      	</div>
-
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
-        	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-		        	<div class="doctor-img">
-						<a href="{{route('product', ['slug' => 'cenders'])}}">
-		               <img class="col-md-9" src="images/team/Cenders_1.png" alt="doctor-image" class="img-fluid w-100"></a>
-		            </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's</a></h4>
-                	<p>Sterile pigment for endopigmentation</p>
-                </div> 
-	      	</div>
-      </div>
-
-      <div class="col-lg-3 col-sm-6 col-md-6 mb-4">
-        	<div class="position-relative doctor-inner-box">
-		        <div class="doctor-profile">
-		        	<div class="doctor-img"><a href="{{route('product', ['slug' => 'indigo'])}}">
-		               <img class="col-md-9" src="images/team/Indigo_1.png" alt="doctor-image" class="img-fluid w-100"></a>
-		            </div>
-	            </div>
-                <div class="content mt-3">
-                	<h4 class="mb-0"><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></h4>
-                	<p>Highlights anomalies in the mucosal relief</p>
-                </div> 
-	      	</div>
-      </div>
       	@foreach($products as $product)
 			@include('partials.product.product-card', ['product' => $product, 'm' => 2])
 		@endforeach
