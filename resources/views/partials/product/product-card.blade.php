@@ -3,7 +3,7 @@
         <div class="doctor-profile">
             <div class="doctor-img">
                 <a href="{{route('product', ['slug' => $product->slug])}}">
-                    <img src="{{asset($product->images[0])}}" alt="{{$product->name}}" class="img-fluid w-100">
+                    <img class="col-md-8" src="{{asset($product->images[0])}}" alt="{{$product->name}}" class="img-fluid w-100">
                 </a>
             </div>
         </div>
