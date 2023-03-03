@@ -20,9 +20,9 @@ Route::get('/', [LandingController::class, 'index'])->name('home');
 Route::get('/service', function () {
     return view('pages.service.index');
 })->name('service');
-Route::get('/news', function () {
-    return view('pages.news');
-})->name('news');
+Route::get('/a-propos', function () {
+    return view('pages.a-propos');
+})->name('a-propos');
 Route::get('/contact', function () {
     return view('pages.contact.index');
 })->name('contact');

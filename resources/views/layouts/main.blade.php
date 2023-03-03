@@ -127,16 +127,7 @@
 						<li><a class="dropdown-item" href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li>
 					</ul>
 			  	</li>
-
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  	</li> -->
-				<li class="nav-item"><a class="nav-link" href="{{route('news')}}">Catalogue</a></li>
+				<li class="nav-item no-break-word"><a class="nav-link" href="{{route('a-propos')}}">À propos</a></li>
 
 			   <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
 			</ul>
@@ -156,7 +147,7 @@
 			<div class="col-lg-6 mr-auto col-sm-12">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
+						<img src="{{asset('images/logo.png')}}" alt="" class="img-fluid">
 					</div>
 				</div>
 			</div>

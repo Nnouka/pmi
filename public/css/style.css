@@ -1620,4 +1620,9 @@ a:focus {
   border-bottom-right-radius: 24px;
   border-bottom-left-radius: 24px;
 }
+.no-break-word {
+  white-space: nowrap;
+  word-break: normal;
+  word-wrap: none;
+}
 /*# sourceMappingURL=maps/style.css.map */

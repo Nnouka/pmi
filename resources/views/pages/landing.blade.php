@@ -21,17 +21,6 @@
 <!-- portfolio -->
 <section class="section doctors">
   <div class="container">
-	<div class="row justify-content-center">
-		<div class="col-lg-9 text-center">
-		   <div class="section-title">
-			   <h2>Notre Mission</h2>
-			   <div class="divider mx-auto my-4"></div>
-			   <h4 class=" text-justify">Afin de remplir notre mission dans le respect de nos valeurs, nous sommes engagés dans une
-				maitrise de notre système Qualité. La norme NF EN ISO 13485-2016 constitue la référence
-				constante pour la maitrise de notre système Qualité.</h4>
-		   </div>
-	   </div>
-	</div>
 		<div class="row justify-content-center">
 			<div class="col-lg-6 text-center">
 			   <div class="section-title">
@@ -49,7 +38,6 @@
   </div>
 </section>
 <!-- /portfolio -->
-@include('partials.appointment') <br>
 <div class="row justify-content-center">
 	<div class="col-lg-6 text-center">
 	   <div class="section-title">
@@ -65,7 +53,7 @@
 	   </div>
    </div>
 </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center mb-4">
 	<div class="col-lg-6 text-center">
 	   <div class="section-title partners">
 		   <h2>Nos Partenaires</h2>
