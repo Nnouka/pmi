@@ -23,6 +23,7 @@ Route::get('/service', function () {
 Route::get('/a-propos', function () {
     return view('pages.a-propos');
 })->name('a-propos');
+Route::get('/certifications', [ProductController::class, 'certifications'])->name('certifications');
 Route::get('/contact', function () {
     return view('pages.contact.index');
 })->name('contact');

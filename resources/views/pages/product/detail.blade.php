@@ -21,22 +21,26 @@
 <section class="details-wrapper" style="padding: 15px;">
    <div class="row" style="margin: 0 15px;">
     @include('partials.product.product-card', ['product' => $product, 'm' => 0, 'classes' => 'col-lg-4 col-sm-12 col-md-6'])
+    
     @if(isset($product->composition_lines) && count($product->composition_lines) > 0 && strlen($product->composition_lines[0]) > 0)
     <div class="col-lg-4 col-md-6 col-sm-12 mt-2" style="color: white;">
-      <h3 style="color: #ccc;">Composition</h3>
+      <h3 style="color: #ccc;text-transform:uppercase;">Composition</h3>
       @foreach($product->composition_lines as $composition)
           <p>{{ $composition }}</p>
       @endforeach
     </div>
     @endif
+    
     @if(isset($product->intended_use_lines) && count($product->intended_use_lines) > 0 && strlen($product->intended_use_lines[0]) > 0)
     <div class="col-lg-4 col-md-6 col-sm-12 mt-2" style="color: white;">
-      <h3 style="color: #ccc;">Intended Use</h3>
+      <h3 style="color: #ccc;text-transform:uppercase;">UTILISATION PRÉVUE</h3>
       @foreach($product->intended_use_lines as $intended_use)
           <p>{{ $intended_use }}</p>
       @endforeach
     </div>
     @endif
+
+   
    </div>
     @include('partials.product.manufacturer')
 </section>

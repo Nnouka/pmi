@@ -19,6 +19,28 @@ class ProductController extends Controller
     }
 
     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function certifications()
+    {
+        $products = Product::all();
+        if ($products != null) {
+            $len = count($products);
+            for($i = 0; $i < $len; $i++) {
+                $products[$i]->images = \explode("|", $products[$i]->images);
+                $products[$i]->description_lines = \explode("|", $products[$i]->description);
+                $products[$i]->infos = \explode("|", $products[$i]->info);
+            }
+        }
+        return view('pages.certifications.index', [
+            'products' => $products,
+            'title' => 'Certifications',
+        ]);
+    }
+
+    /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

@@ -108,16 +108,6 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="{{route('home')}}">Home</a>
 			  </li>
-			   <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-
-			    <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="department.html">Departments</a></li>
-						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
-					</ul>
-			  	</li> -->
 
 			  	<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="{{route('service')}}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produits <i class="icofont-thin-down"></i></a>
@@ -128,8 +118,8 @@
 					</ul>
 			  	</li>
 				<li class="nav-item no-break-word"><a class="nav-link" href="{{route('a-propos')}}">À propos</a></li>
-
-			   <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{route('certifications')}}">Certifications</a></li>
+			   	<li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
 			</ul>
 		  </div>
 		</div>

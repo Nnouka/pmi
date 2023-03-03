@@ -21,6 +21,9 @@ return new class extends Migration
             $table->string('info')->nullable();
             $table->string('composition')->nullable();
             $table->string('packaging')->nullable();
+            $table->string('certification_file')->nullable();
+            $table->string('tech_file')->nullable();
+            $table->string('notice_file')->nullable();
             $table->text('intended_use')->nullable();
             $table->text('dosage')->nullable();
             $table->text('equipment_methods')->nullable();
