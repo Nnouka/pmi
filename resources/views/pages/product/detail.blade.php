@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-			<span class="title-span">Products</span>
+			<span class="title-span">Produits</span>
 			<h1 class="text-capitalize mb-5 text-lg title-text">{{ $product->name }}</h1>
             @foreach($product->description_lines as $desc_line)
                 <p class="description-text p-0 m-1">{{$desc_line}}</p>
