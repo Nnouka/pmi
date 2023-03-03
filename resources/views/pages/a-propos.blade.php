@@ -26,7 +26,7 @@
 <section>
 	<div class="container">
 
-	<div class="row">
+	<div class="row mb-5 mt-4">
 
 		<p class="mt-3 mb-4">DERM TECH France travaille exclusivement dans la fabrication de dispositifs médicaux. Notre  mission est d'apporter à nos clients le meilleur niveau de service dans les domaines de la préparation  de solutions de marquage et d'identification de lésions ou de tumeurs afin de contribuer à  l'amélioration de la santé des patients souffrant de ce type de pathologies.</p>
 

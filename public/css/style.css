@@ -385,7 +385,7 @@ a:focus {
   color: #222;
   font-family: "Exo", sans-serif;
   text-transform: capitalize;
-  font-size: 32px;
+  font-size: 24px;
   transition: all .25s ease;
 }
 
