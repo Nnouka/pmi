@@ -1584,6 +1584,11 @@ a:focus {
   color: #0e8ee4;
   border-bottom: solid 1px #0e8ee4;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+  transition: .5s;
+}
+.value--options .value_option:hover {
+  transform: scale(1.1);
+  border-radius: 0;
 }
 .value--options .value_option :first-of-type {
   margin-top: 14px;
@@ -1608,8 +1613,9 @@ a:focus {
   margin-right: 5px;
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
+  transition: .5s;
 }
-.value--options .value_option:nth-of-type(even)::before {
+.value--options .value_option:hover::before {
   border-bottom-right-radius: 24px;
   border-bottom-left-radius: 24px;
 }
