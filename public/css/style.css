@@ -1560,4 +1560,57 @@ a:focus {
 .contact-h-3 {
   height: 250px;
 }
+.value--options {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  counter-reset: value_option;
+}
+.value--options .value_option {
+  color: #333;
+  padding: 10px;
+  counter-increment: value_option;
+  display: flex;
+  cursor: pointer;
+  margin: 0;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 24px;
+  border-top-left-radius: 24px;
+  justify-content: flex-start;
+  /* background: #e6f8fe; */
+  color: #0e8ee4;
+  border-bottom: solid 1px #0e8ee4;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+}
+.value--options .value_option :first-of-type {
+  margin-top: 14px;
+}
+.value--options .value_option > p {
+  margin: 5px;
+  margin-left: 8px;
+  width: 100%;
+}
+.value--options .value_option::before {
+  content: counter(value_option, upper-alpha);
+  color: inherit;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+.value--options .value_option:nth-of-type(even)::before {
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
 /*# sourceMappingURL=maps/style.css.map */

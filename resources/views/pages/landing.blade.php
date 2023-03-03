@@ -55,13 +55,13 @@
 	   <div class="section-title">
 		   <h2>Nos Valeurs</h2>
 		   <div class="divider mx-auto my-4"></div>
-			<ul class="text-justify">
-				<li>Satisfaction des clients</li>
-				<li>Qualité de service</li>							
-				<li>Valorisation des collaborateurs</li>
-				<li>Intégrité</li>
-				<li>Innovation</li>					
-			</ul>
+		   <div class="value--options">
+			<div class="value_option">Satisfaction des clients</div>
+			<div class="value_option">Qualité de service</div>							
+			<div class="value_option">Valorisation des collaborateurs</div>
+			<div class="value_option">Intégrité</div>
+			<div class="value_option">Innovation</div>
+		   </div>
 	   </div>
    </div>
 </div>
