@@ -1502,8 +1502,7 @@ a:focus {
   opacity: 1;
 }
 
-div:has(.manufacturer-wrapper),
-section:has(.manufacturer-wrapper){
+.details-wrapper {
   position: relative;
   min-height: 540px;
 }
@@ -1513,7 +1512,6 @@ section:has(.manufacturer-wrapper){
   bottom:0;
   border-top: 4px solid #333;
   border-left: 4px solid #333;
-  border-top-left-radius: 100%;
   padding-top: 95px;
   padding-left: 95px;
   padding-right: 5px;
@@ -1556,6 +1554,7 @@ section:has(.manufacturer-wrapper){
   }
   .manufacturer-wrapper {
     position: absolute;
+    border-top-left-radius: 100%;
   }
 }
 .contact-h-3 {

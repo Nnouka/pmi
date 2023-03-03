@@ -1,4 +1,4 @@
-<div class="col-lg-3 col-sm-6 col-md-6 m-{{$m}} shadow" style="background: white;border-radius: 4px;">
+<div class="{{isset($classes) ? $classes : 'col-lg-3 col-sm-12 col-md-6'}} m-{{$m}} shadow" style="background: white;border-radius: 4px;">
     <div class="position-relative doctor-inner-box">
         <div class="doctor-profile">
             <div class="doctor-img">
