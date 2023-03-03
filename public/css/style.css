@@ -1512,10 +1512,6 @@ a:focus {
   bottom:0;
   border-top: 4px solid #333;
   border-left: 4px solid #333;
-  padding-top: 95px;
-  padding-left: 95px;
-  padding-right: 5px;
-  box-shadow: 0px 0px 24px rgb(63 54 54 / 63%);
   z-index: 2;
   background-color: #eee;
 }
@@ -1554,7 +1550,6 @@ a:focus {
   }
   .manufacturer-wrapper {
     position: absolute;
-    border-top-left-radius: 100%;
   }
 }
 .contact-h-3 {
@@ -1630,5 +1625,11 @@ a:focus {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+.product-image {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  object-position: top;
 }
 /*# sourceMappingURL=maps/style.css.map */
