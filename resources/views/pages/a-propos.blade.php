@@ -31,10 +31,9 @@
 			<p class="mt-3 mb-4">DERM TECH France travaille exclusivement dans la fabrication de dispositifs médicaux. Notre  mission est d'apporter à nos clients le meilleur niveau de service dans les domaines de la préparation  de solutions de marquage et d'identification de lésions ou de tumeurs afin de contribuer à  l'amélioration de la santé des patients souffrant de ce type de pathologies.</p>
 
 			<p class="mb-4">Afin de remplir notre mission dans le respect de nos valeurs, nous sommes engagés dans une maîtrise  de notre système Qualité. La norme NF EN ISO 13485-2016 constitue la référence constante pour la  maîtrise de notre système qualité.</p>
-
-			<p class="mb-2">Pour ce faire, nous avons mis en place :</p>
-			<div class="row">
-				<ul class="">
+			<div>
+				<p class="mb-2">Pour ce faire, nous avons mis en place :</p>
+				<ul style="display: block;">
 					<li>Un Manuel Qualité</li>
 					<li>Une cartographie des processus</li>							
 					<li>Des procédures</li>					
