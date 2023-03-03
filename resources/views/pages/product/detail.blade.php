@@ -30,7 +30,6 @@
       @endforeach
     </div>
     @endif
-    
     @if(isset($product->intended_use_lines) && count($product->intended_use_lines) > 0 && strlen($product->intended_use_lines[0]) > 0)
     <div class="col-lg-4 col-md-6 col-sm-12 mt-2" style="color: white;">
       <h3 style="color: #ccc;text-transform:uppercase;">UTILISATION PRÉVUE</h3>

@@ -1625,4 +1625,10 @@ a:focus {
   word-break: normal;
   word-wrap: none;
 }
+.product-description-para {
+  width: 80%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 /*# sourceMappingURL=maps/style.css.map */
