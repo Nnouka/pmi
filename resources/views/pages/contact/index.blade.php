@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="alert alert-success contact__msg" role="alert">
-                    Votre message a bien été envoyé
+                    Your message has been sent successfully.
                 </div>
             </div>
         </div>
@@ -19,8 +19,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">Contactez-nous</span>
-          <h1 class="text-capitalize mb-5 text-lg">Entrer en contact</h1>
+          <span class="text-white">Contact Us</span>
+          <h1 class="text-capitalize mb-5 text-lg">Get in touch</h1>
         </div>
       </div>
     </div>
@@ -34,22 +34,22 @@
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-live-support"></i>
-                    <h5>Contactez-nous</h5>
-                    +33 1 48-02-61-63
+                    <h5>Contact Us</h5>
+                    +234 9 017 093 535
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-support-faq"></i>
-                    <h5>Envoyez-nous un email</h5>
-                     infos@derm-tech.com
+                    <h5>Send Us An email</h5>
+                        pmidegree@gmail.com
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0 contact-h-3">
                     <i class="icofont-location-pin"></i>
-                    <h5>Emplacement</h5>
-                    Address 210 avenue Aristide Briand 93320 Les Pavillons-sous-Bois
+                    <h5>Location</h5>
+                        Abuja
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center">
-                    <h2 class="text-md mb-2">Contactez-nous</h2>
+                    <h2 class="text-md mb-2">Contact Us</h2>
                     <div class="divider mx-auto my-4"></div>
                 </div>
             </div>
@@ -75,33 +75,33 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Ton Nom complet" >
+                                <input name="name" id="name" type="text" class="form-control" placeholder="Your Full Names" >
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="email" id="email" type="email" class="form-control" placeholder="Votre Adresse E-mail">
+                                <input name="email" id="email" type="email" class="form-control" placeholder="Your Email">
                             </div>
                         </div>
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="subject" id="subject" type="text" class="form-control" placeholder="Votre Sujet de Requête">
+                                <input name="subject" id="subject" type="text" class="form-control" placeholder="Your Subject matter">
                             </div>
                         </div>
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <input name="phone" id="phone" type="text" class="form-control" placeholder="Votre Numéro de Téléphone">
+                                <input name="phone" id="phone" type="text" class="form-control" placeholder="Your Telephone Number">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group-2 mb-4">
-                        <textarea name="message" id="message" class="form-control" rows="8" placeholder="Votre Message"></textarea>
+                        <textarea name="message" id="message" class="form-control" rows="8" placeholder="Your Message"></textarea>
                     </div>
 
                     <div class="text-center">
-                        <input class="btn btn-main btn-round-full" type="submit" value="Envoyer">
+                        <input class="btn btn-main btn-round-full" type="submit" value="Send">
                     </div>
                 </form>
             </div>

@@ -20,7 +20,7 @@ Route::get('/', [LandingController::class, 'index'])->name('home');
 Route::get('/service', function () {
     return view('pages.service.index');
 })->name('service');
-Route::get('/a-propos', function () {
+Route::get('/about', function () {
     return view('pages.a-propos');
 })->name('a-propos');
 Route::get('/certifications', [ProductController::class, 'certifications'])->name('certifications');

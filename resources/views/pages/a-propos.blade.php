@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <h1 class="text-capitalize mb-5 text-lg">Qui Sommes Nous?</h1>
+          <h1 class="text-capitalize mb-5 text-lg">Who are We?</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -28,31 +28,40 @@
 
 		<div class="row mb-5 mt-4">
 
-			<p class="mt-3 mb-4">DERM TECH France travaille exclusivement dans la fabrication de dispositifs médicaux. Notre  mission est d'apporter à nos clients le meilleur niveau de service dans les domaines de la préparation  de solutions de marquage et d'identification de lésions ou de tumeurs afin de contribuer à  l'amélioration de la santé des patients souffrant de ce type de pathologies.</p>
+			<p class="mt-3 mb-4">PULPIT MANAGEMENT INTERNATIONAL (PMI) is a missionary organization of the Church of Christ, affiliated to Church of Christ Butere
+Western Kenyan</p>
 
-			<p class="mb-4">Afin de remplir notre mission dans le respect de nos valeurs, nous sommes engagés dans une maîtrise  de notre système Qualité. La norme NF EN ISO 13485-2016 constitue la référence constante pour la  maîtrise de notre système qualité.</p>
-			<div>
-				<p class="mb-2">Pour ce faire, nous avons mis en place :</p>
-				<ul style="display: block;">
-					<li>Un Manuel Qualité</li>
-					<li>Une cartographie des processus</li>							
-					<li>Des procédures</li>					
-				</ul>
-			</div>	
-			<p>Nous demandons à l'ensemble des collaborateurs de tout mettre en œuvre pour déployer le système  qualité de leur propre activité en mettant à la disposition de chacun les moyens matériels nécessaires.</p>
-			<p>Réactivité, fiabilité des produits constituent les éléments majeurs de notre engagement vis-à-vis de nos  clients.</p>
-		</div>
+			
+			<div class="mx-auto section-title">
+			<h2 class="text-center">Our History</h2>
+				<p class="mb-2">Ojenike Barnabas Ikechukwu arrive Port Harcourt his home state around October 2021 after strengthening Churches in Ghana.
 
-		<div class="row justify-content-center">
-			<div class="col-lg-9 text-center">
-			<div class="section-title">
-				<h2>Notre Mission</h2>
-				<div class="divider mx-auto my-4"></div>
-				<h4 class=" text-justify">Afin de remplir notre mission dans le respect de nos valeurs, nous sommes engagés dans une
-					maitrise de notre système Qualité. La norme NF EN ISO 13485-2016 constitue la référence
-					constante pour la maitrise de notre système Qualité.</h4>
+On the 27th December through the help of God, the servant of God Ojenike Barnabas Ikechukwu initiated Pulpit Management International.
+
+He then communicate Sister Mhina Brenzuela the first who was train on the Pulpit Management certificate course. 
+
+Later he went to Omoku his home town to announce the Pulpit Management International to his people.
+
+He then travel to Imo state to train Min. Tochukwu Daniel on the course.
+
+Later on he travel back to Ghana for mission work.
+
+To the glory of God Pulpit Management International entered Each Africa through Min. Richard Afuma, also Pulpit Management International entered central Africa through Min. Mebu Elvis Nyama 
+
+Today Pulpit Management has entered 25 different countries globally.</p>
 			</div>
-		</div>
+
+      <div class="mx-auto section-title">
+				<p class="mb-2">Pulpit Management International has strengthened so many congregations of Churches of Christ. We have established new congregations
+We have trained hundreds of preachers in many countries.
+We are seriously engaged in soul winning outreach.
+To join our mission team, please contact us. </p>
+			</div>
+			<div class="mx-auto section-title">
+				<h2 class="text-center">Our Mission</h2>
+				<div class="divider my-4 mx-auto"></div>
+				<h4>Strengthening Churches of Christ globally to the glory of God (Acts 14:22)</h4>
+			</div>
 	</div>	
 </section>
 
