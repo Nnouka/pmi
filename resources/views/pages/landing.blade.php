@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-9">
         <div class="block text-center">
-          <h1 class="text-capitalize mb-4 text-lg">PULPIT MANAGEMENT INSTITUTE INTERNATIONAL</h1>
+          <h1 class="text-capitalize mb-4 text-lg">PULPIT MANAGEMENT INTERNATIONAL</h1>
 			<p>A missionary Organization of the Church of Christ, affiliated to Church of Christ Butere
 			Western Kenyan</p>
         </div>

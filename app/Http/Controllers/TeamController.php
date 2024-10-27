@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\TeamMember;
 
 class TeamController extends Controller
 {
@@ -14,14 +15,10 @@ class TeamController extends Controller
      */
     public function show($slug)
     {
-        // $product = Product::where('slug', $slug)->first();
+        $member = TeamMember::where('slug', $slug)->first();
         
-        // return view('pages.product.detail', [
-        //     'product' => $product,
-        //     'manufacturer' => $manufacturer,
-        //     'title' => $product->name,
-        //     'description' => $product->description,
-        // ]);
-        return $slug;
+        return view('pages.team.detail', [
+            'member' => $member
+        ]);
     }
 }

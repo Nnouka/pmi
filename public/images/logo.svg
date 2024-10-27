@@ -67,7 +67,7 @@
      showgrid="false"
      inkscape:zoom="0.94987775"
      inkscape:cx="290.03732"
-     inkscape:cy="306.8816"
+     inkscape:cy="307.93436"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -84,10 +84,10 @@
        id="text8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:105.876px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9);display:inline;opacity:1;fill:#003049;fill-opacity:1;paint-order:stroke fill markers"
        inkscape:label="text8"
-       transform="matrix(1.6463929,0,0,2.1737782,-257.27593,-112.68657)"><tspan
+       transform="matrix(1.9567123,0,0,2.3329856,-340.62122,-142.30968)"><tspan
          x="260.0332"
          y="184.98052"
-         id="tspan1">PMII</tspan></text>
+         id="tspan1">PMI</tspan></text>
     <path
        id="rect8"
        style="display:inline;opacity:1;fill:#003049;fill-opacity:1;paint-order:stroke fill markers"
@@ -95,13 +95,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:106.667px;font-family:'Lucida Fax';-inkscape-font-specification:'Lucida Fax, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#003049;fill-opacity:1;paint-order:stroke fill markers"
-       x="59.166023"
-       y="374.57144"
+       x="167.16602"
+       y="342.57144"
        id="text21"><tspan
          sodipodi:role="line"
          id="tspan21"
-         x="59.166023"
-         y="374.57144"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:21.3333px;font-family:Sans;-inkscape-font-specification:'Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#003049;fill-opacity:1">Pulpit Management Institute International</tspan></text>
+         x="167.16602"
+         y="342.57144"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:21.3333px;font-family:Sans;-inkscape-font-specification:'Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#003049;fill-opacity:1">Pulpit Management  International</tspan></text>
   </g>
 </svg>

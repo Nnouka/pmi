@@ -1646,11 +1646,12 @@ a:focus {
   object-fit: cover;
   object-position: center;
   height: 100px;
+  width: 300px;
 }
 
 .team-image {
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 0%;
   height: 300px;
-  width: 300px;
+  width: 100%;
 }
