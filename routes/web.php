@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\TeamController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,4 @@ Route::get('/appointment', function () {
     return view('pages.appointment');
 })->name('appointment');
 Route::get('/product/{slug}', [ProductController::class, 'show'])->name('product');
+Route::get('/team/{slug}', [TeamController::class, 'show'])->name('team');

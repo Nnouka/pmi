@@ -25,15 +25,15 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-6 text-center">
 			   <div class="section-title">
-				   <h2>Courses</h2>
+				   <h2>Team</h2>
 				   <div class="divider mx-auto my-4"></div>
 			   </div>
 		   </div>
 		</div>
 
     <div class="row portfolio-gallery justify-content-center">
-      	@foreach($products as $product)
-			@include('partials.product.product-card', ['course' => $product, 'm' => 2])
+      	@foreach($members as $member)
+			@include('partials.team.card', ['member' => $member, 'm' => 2])
 		@endforeach
     </div>
   </div>
@@ -45,9 +45,9 @@
 		   <h2>Our Values</h2>
 		   <div class="divider mx-auto my-4"></div>
 		   <div class="value--options">
-			<div class="value_option">Client Satisfaction</div>
-			<div class="value_option">Quality Service</div>							
-			<div class="value_option">Employee Recognition</div>
+			<div class="value_option">Sound Doctrine</div>
+			<div class="value_option">Healthy Congregations</div>							
+			<div class="value_option">Disciples of Christ</div>
 			<div class="value_option">Integrity</div>
 			<div class="value_option">Innovation</div>
 		   </div>
@@ -67,7 +67,7 @@
 		<div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			 <div class="doctor-img">
-					 <img src="images/partners/2-Carmonja-Logo.jpg" alt="partner-image" class="img-fluid w-100">
+					<img src="{{asset('images/partners/churchhouse.jpg')}}" alt="partner-image" class="img-fluid fit-full w-100">
 			 </div>
 		  </div> 
 		</div>
@@ -77,8 +77,7 @@
 	  <div class="position-relative doctor-inner-box">
 		  <div class="doctor-profile">
 			  <div class="doctor-img">
-				<a href="https://diagmed.healthcare/">
-				 <img src="images\partners\Diagmed-Healthcare.png" alt="partner-image" class="img-fluid w-70"></a>
+			  	<img src="{{asset('images/partners/churchhouse2.jpg')}}" alt="partner-image" class="img-fluid fit-full w-70">
 			  </div>
 		  </div>
 		</div>
@@ -87,7 +86,7 @@
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
-				   <img src="images\partners\creo_medical.jpg" alt="partner-image" class="img-fluid w-70">
+				   <img src="{{asset('images/partners/churchhouse3.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
 				</div>
 			</div>
 		  </div>
@@ -96,8 +95,7 @@
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
-					<a href="https://www.duomed.com/fr-FR-x-endo">
-				   <img src="images\partners\Duomed-22_logo_pos_cmyk.png" alt="partner-image" class="img-fluid w-70"></a>
+				<img src="{{asset('images/partners/churchplace.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
 				</div>
 			</div>
 		  </div>
@@ -106,7 +104,7 @@
 		<div class="position-relative doctor-inner-box">
 			<div class="doctor-profile">
 				<div class="doctor-img">
-				   <img src="images\partners\Vytil_Color.png" alt="partner-image" class="img-fluid w-70">
+				   <img src="{{asset('images/partners/churchsongs.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
 				</div>
 			</div>
 		  </div>

@@ -1632,4 +1632,25 @@ a:focus {
   object-fit: contain;
   object-position: top;
 }
+.nav-wrapper {
+  justify-content: space-around;
+  width: 100%;
+}
 /*# sourceMappingURL=maps/style.css.map */
+
+.w-300 {
+  width: 300px;
+}
+
+.fit-full {
+  object-fit: cover;
+  object-position: center;
+  height: 100px;
+}
+
+.team-image {
+  object-fit: cover;
+  object-position: center;
+  height: 300px;
+  width: 300px;
+}

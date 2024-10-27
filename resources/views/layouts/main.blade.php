@@ -6,48 +6,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="author" content="mungwin.com">
 
-	<title>Derm Tech FR - @yield('title')</title>
+	<title>{{config('app.name')}} - @yield('title')</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.ico')}}" />
 	<!-- SEO -->
 	<meta
 		name="description"
-		content="Derm Tech France: {{!empty($description) ? $description : 'Quality medical products at your door step'}}" />
+		content="{{config('app.name')}}: {{!empty($description) ? $description : 'A missionary Organization of the Church of Christ, affiliated to Church of Christ Butere Western Kenyan'}}" />
 	<meta
 		name="keywords"
-		content="medical,pharma,pharmacy,healing,cure,consultation,safe,secure" />
+		content="bible,school,church,christ,organisation,christian,missionary,pulpit,management,prayer,jesus" />
 	<link rel="canonical" href="{{route('home')}}" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Derm Tech France {{!empty($title) ? "- ".$title : ''}}" />
-	<meta property="og:description" content="Derm Tech France: {{!empty($description) ? $description : 'Quality medical products at your door step'}}" />
+	<meta property="og:title" content="{{config('app.name')}} {{!empty($title) ? '- '.$title : ''}}" />
+	<meta property="og:description" content="{{config('app.name')}}: {{!empty($description) ? $description : 'We have established new congregations, We have trained hundreds of preachers in many countries'}}" />
 	<meta property="og:url" content="{{route('home')}}" />
-	<meta property="og:site_name" content="Derm Tech France" />
-	<meta property="article:tag" content="dtfr" />
-	<meta property="article:tag" content="medical" />
-	<meta property="article:tag" content="pharma" />
-	<meta property="article:tag" content="pharmacy" />
+	<meta property="og:site_name" content="{{config('app.name')}}" />
+	<meta property="article:tag" content="pulpit" />
+	<meta property="article:tag" content="prayer" />
+	<meta property="article:tag" content="disciple" />
+	<meta property="article:tag" content="Jesus" />
 	<meta property="article:tag" content="healing" />
 	<meta property="article:tag" content="cure" />
 	<meta property="article:tag" content="consultation" />
 	<meta property="article:tag" content="safe" />
 	<meta property="article:tag" content="community" />
 	<meta property="article:tag" content="Nnouka Stephen" />
-	<meta property="article:tag" content="Quinevert Mbong" />
-	<meta property="article:tag" content="Ronterrence" />
-	<meta property="article:tag" content="Peter Kampete" />
+	<meta property="article:tag" content="Fuanyi Jude" />
 	<meta property="article:tag" content="smart" />
 	<meta property="article:tag" content="secure" />
-	<meta property="article:section" content="DermTech" />
-	<meta property="article:published_time" content="2023-03-31T00:52:38+00:00" />
-	<meta property="og:image" content="{{asset('images/logo.png')}}" />
-	<meta property="og:image:secure_url" content="{{asset('images/logo.png')}}" />
+	<meta property="article:section" content="PMII" />
+	<meta property="article:published_time" content="2024-10-27T00:52:38+00:00" />
+	<meta property="og:image" content="{{asset('images/pulpit.png')}}" />
+	<meta property="og:image:secure_url" content="{{asset('images/pulpit.png')}}" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:description" content="Derm Tech France: {{!empty($description) ? $description : 'Quality medical products at your door step'}}" />
-	<meta name="twitter:title" content="Derm Tech France - {{!empty($title) ? $title : ''}}" />
-	<meta name="twitter:site" content="@dermtechfr" />
-	<meta name="twitter:image" content="{{asset('images/logo.png')}}" />
+	<meta name="twitter:description" content="{{config('app.name')}}: {{!empty($description) ? $description : 'A missionary Organization of the Church of Christ, affiliated to Church of Christ Butere Western Kenyan'}}" />
+	<meta name="twitter:title" content="{{config('app.name')}} - {{!empty($title) ? $title : 'Home'}}" />
+	<meta name="twitter:site" content="@pmii" />
+	<meta name="twitter:image" content="{{asset('images/pulpit.png')}}" />
 	<meta name="twitter:creator" content="@MungwinL" />
 	<link rel="apple-touch-icon" href="{{asset('images/apple-touch-icon.png')}}" />
 	<!--
@@ -95,7 +93,7 @@
 		<nav class="navbar navbar-expand-lg navigation" id="navbar">
 			<div class="container d-flex align-items-left">
 				<a class="navbar-brand mr-3" href="{{route('home')}}">
-					<img src="{{asset('images/logo.png')}}" alt="" class="img-fluid" style="width: 150px; height: auto;">
+					<img src="{{asset('images/pulpit.png')}}" alt="" class="img-fluid" style="width: 150px; height: auto;">
 				</a>
 
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,19 +101,19 @@
 				</button>
 
 				<div class="collapse navbar-collapse" id="navbarmain">
-					<ul class="navbar-nav">
+					<ul class="navbar-nav nav-wrapper">
 						<li class="nav-item active">
 							<a class="nav-link" href="{{route('home')}}">{{__('header.home')}}</a>
 						</li>
 
-						<li class="nav-item dropdown">
+						<!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="{{route('service')}}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produits <i class="icofont-thin-down"></i></a>
 							<ul class="dropdown-menu" aria-labelledby="dropdown03">
 								<li><a class="dropdown-item" href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
 								<li><a class="dropdown-item" href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's</a></li>
 								<li><a class="dropdown-item" href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li class="nav-item no-break-word"><a class="nav-link" href="{{route('a-propos')}}">{{__('header.about')}}</a></li>
 						<!-- <li class="nav-item"><a class="nav-link" href="{{route('certifications')}}">Certifications</a></li> -->
 						<li class="nav-item"><a class="nav-link" href="{{route('contact')}}">{{__('header.contact')}}</a></li>
@@ -135,7 +133,7 @@
 			<div class="row">
 				<div class="col-lg-6 mr-auto col-sm-12">
 					<div class="widget mb-5 mb-lg-0">
-						<div class="logo mb-4">
+						<div class="logo mb-4 w-300">
 							<img src="{{asset('images/logo.png')}}" alt="" class="img-fluid">
 						</div>
 					</div>
@@ -147,10 +145,10 @@
 						<div class="divider mb-4"></div>
 
 						<ul class="list-unstyled footer-menu lh-35">
-							<li><a href="#">Derm Terch</a></li>
-							<li><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
+							<li><a href="#">{{config('app.name')}}</a></li>
+							<!-- <li><a href="{{route('product', ['slug' => 'bluelift'])}}">Blue Lift</a></li>
 							<li><a href="{{route('product', ['slug' => 'cenders'])}}">185 Cender's </a></li>
-							<li><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li>
+							<li><a href="{{route('product', ['slug' => 'indigo'])}}">Indigo Carmine</a></li> -->
 							<li><a href="{{route('contact')}}">Contact</a></li>
 						</ul>
 					</div>

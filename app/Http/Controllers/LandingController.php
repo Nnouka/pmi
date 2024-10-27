@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Product;
-use App\Models\Manufacturer;
+use App\Models\TeamMember;
 
 class LandingController extends Controller
 {
@@ -15,17 +14,9 @@ class LandingController extends Controller
      */
     public function index()
     {
-        $products = Product::all();
-        if ($products != null) {
-            $len = count($products);
-            for($i = 0; $i < $len; $i++) {
-                $products[$i]->images = \explode("|", $products[$i]->images);
-                $products[$i]->description_lines = \explode("|", $products[$i]->description);
-                $products[$i]->infos = \explode("|", $products[$i]->info);
-            }
-        }
+        $members = TeamMember::all();
         return view('pages.landing', [
-            'products' => $products,
+            'members' => $members,
             'title' => 'Home',
         ]);
     }
