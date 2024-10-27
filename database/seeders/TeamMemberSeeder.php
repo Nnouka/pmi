@@ -19,7 +19,7 @@ class TeamMemberSeeder extends Seeder
             [
                 'name' => 'Ojenike Barnabas Ikechukwu',
                 'slug' => 'ojenike-barnabas-ikechukwu',
-                'title' => 'Director',
+                'title' => 'Director General',
                 'qualification' => 'BA Mission',
                 'picture' => 'images/team/ojenike-barnabas.jpg',
                 'created_at' => now(),
