@@ -26,7 +26,7 @@
 <section>
 	<div class="container">
 
-		<div class="row mb-5 mt-4">
+		<div class="row mb-5 mt-4 m-0">
 
 			<p class="mt-3 mb-4">PULPIT MANAGEMENT INTERNATIONAL (PMI) is a missionary organization of the Church of Christ, affiliated to Church of Christ Butere
 Western Kenyan</p>
