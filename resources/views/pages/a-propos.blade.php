@@ -1,7 +1,7 @@
 @extends('layouts.main')
- 
+
 @section('title', 'About Us')
-@section('content')	
+@section('content')
 
 
 <section class="page-title bg-1">
@@ -24,38 +24,38 @@
 </section>
 
 <section>
-	<div class="container">
+  <div class="container">
 
-		<div class="row mb-5 mt-4 m-0">
+    <div class="row mb-5 mt-4 m-0">
 
-			<p class="mt-3 mb-4">PULPIT MANAGEMENT INTERNATIONAL (PMI) is a missionary organization of the Church of Christ, affiliated to Church of Christ Butere
-Western Kenyan</p>
+      <p class="mt-3 mb-4">PULPIT MANAGEMENT INTERNATIONAL (PMI) is a missionary organization of the Church of Christ, affiliated to Church of Christ Butere
+        Western Kenyan</p>
 
-			
-			<div class="mx-auto section-title">
-			<h2 class="text-center">Our History</h2>
-				<p class="mb-2 text-center ">Ojenike Barnabas Ikechukwu arrived in Port Harcourt, his home state, around October 2021 after strengthening Churches in Ghana</p>
-        <p class="mb-2 text-center">On the 27th December, through the help of God, the servant of God, Ojenike Barnabas Ikechukwu, initiated Pulpit Management International</p>
-        <p class="mb-2 text-center">He then communicated Sister Mhina Brenzuela in Philippines, the first who was trained on the Pulpit Management certificate course </p>
-        <p class="mb-2 text-center">Later, he went to Omoku, his home town to announce the Pulpit Management International to his people </p>
-        <p class="mb-2 text-center">He then travelled to Imo state to train Min. Tochukwu Daniel on the course</p>
-        <p class="mb-2 text-center">Later on, he travelled back to Ghana for mission work</p>
-        <p class="mb-2 text-center">To the glory of God, Pulpit Management International entered East Africa through Min. Richard Afuma, also Pulpit Management International, entered central Africa through Min. Mebu Elvis Nyama </p>
-        <p class="mb-2 text-center">Today, Pulpit Management is now in 25 different countries across the globe</p>
-			</div>
 
       <div class="mx-auto section-title">
-				<p class="mb-2">Pulpit Management International has strengthened so many congregations of Churches of Christ. We have established new congregations
-We have trained hundreds of preachers in many countries.
-We are seriously engaged in soul winning outreach.
-To join our mission team, please contact us. </p>
-			</div>
-			<div class="mx-auto section-title">
-				<h2 class="text-center">Our Mission</h2>
-				<div class="divider my-4 mx-auto"></div>
-				<h4>Strengthening Churches of Christ globally to the glory of God (Acts 14:22)</h4>
-			</div>
-	</div>	
+        <h2 class="text-center">Our History</h2>
+        <p class="mb-2  ">Ojenike Barnabas Ikechukwu arrived in Port Harcourt, his home state, around October 2021 after strengthening Churches in Ghana</p>
+        <p class="mb-2 ">On the 27th December, through the help of God, the servant of God, Ojenike Barnabas Ikechukwu, initiated Pulpit Management International</p>
+        <p class="mb-2 ">He then communicated Sister Mhina Brenzuela in Philippines, the first who was trained on the Pulpit Management certificate course </p>
+        <p class="mb-2 ">Later, he went to Omoku, his home town to announce the Pulpit Management International to his people </p>
+        <p class="mb-2 ">He then travelled to Imo state to train Min. Tochukwu Daniel on the course</p>
+        <p class="mb-2 ">Later on, he travelled back to Ghana for mission work</p>
+        <p class="mb-2 ">To the glory of God, Pulpit Management International entered East Africa through Min. Richard Afuma, also Pulpit Management International, entered central Africa through Min. Mebu Elvis Nyama </p>
+        <p class="mb-2 ">Today, Pulpit Management is now in 25 different countries across the globe</p>
+      </div>
+
+      <div class="mx-auto section-title">
+        <p class="mb-2">Pulpit Management International has strengthened so many congregations of Churches of Christ. We have established new congregations
+          We have trained hundreds of preachers in many countries.
+          We are seriously engaged in soul winning outreach.
+          To join our mission team, please contact us. </p>
+      </div>
+      <div class="mx-auto section-title">
+        <h2 class="text-center">Our Mission</h2>
+        <div class="divider my-4 mx-auto"></div>
+        <h4>Strengthening Churches of Christ globally to the glory of God (Acts 14:22)</h4>
+      </div>
+    </div>
 </section>
 
 @endsection
