@@ -34,21 +34,14 @@ Western Kenyan</p>
 			
 			<div class="mx-auto section-title">
 			<h2 class="text-center">Our History</h2>
-				<p class="mb-2">Ojenike Barnabas Ikechukwu arrive Port Harcourt his home state around October 2021 after strengthening Churches in Ghana.
-
-On the 27th December through the help of God, the servant of God Ojenike Barnabas Ikechukwu initiated Pulpit Management International.
-
-He then communicate Sister Mhina Brenzuela the first who was train on the Pulpit Management certificate course. 
-
-Later he went to Omoku his home town to announce the Pulpit Management International to his people.
-
-He then travel to Imo state to train Min. Tochukwu Daniel on the course.
-
-Later on he travel back to Ghana for mission work.
-
-To the glory of God Pulpit Management International entered Each Africa through Min. Richard Afuma, also Pulpit Management International entered central Africa through Min. Mebu Elvis Nyama 
-
-Today Pulpit Management has entered 25 different countries globally.</p>
+				<p class="mb-2 text-center ">Ojenike Barnabas Ikechukwu arrived in Port Harcourt, his home state, around October 2021 after strengthening Churches in Ghana</p>
+        <p class="mb-2 text-center">On the 27th December, through the help of God, the servant of God, Ojenike Barnabas Ikechukwu, initiated Pulpit Management International</p>
+        <p class="mb-2 text-center">He then communicated Sister Mhina Brenzuela in Philippines, the first who was trained on the Pulpit Management certificate course </p>
+        <p class="mb-2 text-center">Later, he went to Omoku, his home town to announce the Pulpit Management International to his people </p>
+        <p class="mb-2 text-center">He then travelled to Imo state to train Min. Tochukwu Daniel on the course</p>
+        <p class="mb-2 text-center">Later on, he travelled back to Ghana for mission work</p>
+        <p class="mb-2 text-center">To the glory of God, Pulpit Management International entered East Africa through Min. Richard Afuma, also Pulpit Management International, entered central Africa through Min. Mebu Elvis Nyama </p>
+        <p class="mb-2 text-center">Today, Pulpit Management is now in 25 different countries across the globe</p>
 			</div>
 
       <div class="mx-auto section-title">
