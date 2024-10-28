@@ -18,7 +18,7 @@
 </section>
 <section class="details-wrapper" style="padding: 15px;">
    <div class="row" style="margin: 0 15px; justify-content: center;">
-    @include('partials.team.card', ['member' => $member, 'm' => 0, 'classes' => 'col-lg-4 col-sm-12 col-md-6'])
+    @include('partials.team.card', ['member' => $member, 'm' => 0, 'classes' => 'col-6 full-view'])
    </div>
 </section>
 

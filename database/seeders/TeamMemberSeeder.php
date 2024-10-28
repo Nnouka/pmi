@@ -43,6 +43,15 @@ class TeamMemberSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'name' => 'Tina Angel Barnabas',
+                'slug' => 'tian-angel-barnabas',
+                'title' => 'Women International Coordinator',
+                'qualification' => 'BA Mission',
+                'picture' => 'images/team/tina-angel.jpg',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }

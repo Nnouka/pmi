@@ -1655,3 +1655,7 @@ a:focus {
   height: 300px;
   width: 100%;
 }
+.full-view .team-image {
+  height: 600px;
+  object-fit: contain;
+}
