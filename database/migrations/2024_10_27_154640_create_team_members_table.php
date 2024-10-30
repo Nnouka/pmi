@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('qualification');
             $table->text('picture')->nullable();
+            $table->string('caption')->nullable();
             $table->timestamps();
         });
     }

@@ -11,7 +11,12 @@
             <h4 class="mb-0"><a href="{{route('team', ['slug' => $member->slug])}}">{{$member->name}}</a></h4>
             <p class="team-description-para">
                 {{ $member->title }}
-            </p>  
+            </p>
+            @if(isset($member->caption) && strlen($member->caption) > 2)
+                <p class="team-description-para">
+                    ({{ $member->caption }})
+                </p>
+            @endif
         </div> 
       </div>
 </div>
