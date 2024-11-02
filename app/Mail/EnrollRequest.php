@@ -10,27 +10,19 @@ use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Mail\Mailables\Address;
 use Illuminate\Queue\SerializesModels;
 
-class Contact extends Mailable
+class EnrollRequest extends Mailable
 {
     use Queueable, SerializesModels;
-    public $message;
-    public $email;
-    public $name;
-    public $subject;
-    public $phone;
+    public $data;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($name, $email, $phone, $subject, $message)
+    public function __construct($data)
     {
-        $this->name = $name;
-        $this->email = $email;
-        $this->phone = $phone;
-        $this->subject = $subject;
-        $this->message = $message;
+        $this->data = $data;
     }
 
     /**
@@ -43,9 +35,9 @@ class Contact extends Mailable
         return new Envelope(
             from: new Address('pmidegree@gmail.com', \config('app.name')),
             replyTo: [
-                new Address($this->email, $this->name),
+                new Address($this->data['email'], $this->data['first_name']),
             ],
-            subject: $this->subject,
+            subject: 'Enroll Request',
         );
     }
 
@@ -57,13 +49,8 @@ class Contact extends Mailable
     public function content()
     {
         return new Content(
-            view: 'mails.contact',
-            with: [
-                'content' => $this->message,
-                'email' => $this->email,
-                'phone' => $this->phone,
-                'name' => $this->name,
-            ],
+            view: 'mails.enroll',
+            with: $this->data,
         );
     }
 

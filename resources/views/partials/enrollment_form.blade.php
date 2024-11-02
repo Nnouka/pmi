@@ -4,18 +4,26 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="enrollmentModalLabel">Enroll Now</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button onclick="toggleEnrollModal()" type="button" class="btn-close btn-x-dismiss" data-bs-dismiss="modal" aria-label="Close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" tabIndex="-1" focusable="false">
+                        <path
+                            fill="#ccc"
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        />
+                        <path d="M0 0h24v24H0z" fill="none" />
+                    </svg>
+                </button>
             </div>
             <div class="modal-body">
-                <form action="{{ route('enroll.submit') }}" method="POST">
+                <form action="{{ route('enroll.request') }}" method="POST">
                     @csrf
                     <div class="mb-3">
-                        <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="firstName" name="first_name" required>
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="first_name" name="first_name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="lastName" name="last_name" required>
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="last_name" name="last_name" required>
                     </div>
                     <div class="mb-3">
                         <label for="congregation" class="form-label">Name of Congregation</label>

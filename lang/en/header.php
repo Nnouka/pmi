@@ -16,6 +16,7 @@ return [
     'about' => 'About Us',
     'course' => 'Our Courses',
     'home' => 'Home',
-    'contact' => 'Contact'
+    'contact' => 'Contact',
+    'enroll_now' => 'Enroll Now'
 
 ];

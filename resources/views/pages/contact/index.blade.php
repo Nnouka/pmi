@@ -2,17 +2,6 @@
  
 @section('title', 'Contact Us')
 @section('content')
-<section>
-    @if(Session::get('status'))
-        <div class="row">
-            <div class="col-12">
-                <div class="alert alert-success contact__msg" role="alert">
-                    Your message has been sent successfully.
-                </div>
-            </div>
-        </div>
-    @endif
-</section>
 <section class="page-title bg-1">
   <div class="overlay"></div>
   <div class="container">

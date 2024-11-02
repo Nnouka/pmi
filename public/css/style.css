@@ -1659,3 +1659,11 @@ a:focus {
   height: 600px;
   object-fit: contain;
 }
+.modal.show {
+  display: initial;
+}
+.btn-x-dismiss {
+  border: none;
+  outline: none;
+  background: none;
+}

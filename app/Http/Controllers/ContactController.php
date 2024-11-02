@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Contact;
+use App\Mail\EnrollRequest;
+use App\Models\ToEnroll;
 
 class ContactController extends Controller
 {
@@ -36,9 +38,26 @@ class ContactController extends Controller
      */
     public function mail(Request $request)
     {
-        Mail::to('infos@derm-tech.com')->send(new Contact(
+        Mail::to('pmidegree@gmail.com')->send(new Contact(
             $request->name, $request->email, $request->phone, $request->subject, $request->message
         ));
+        $request->session()->flash('status', true);
+        return \redirect()->back();
+    }
+
+    public function enrollRequest(Request $request)
+    {
+        // save the enrollment
+        $data = [];
+        foreach($request->input() as $key => $value) {
+            $data[$key] = gettype($value) == 'string' ? str_replace("'","",$value) : $value;
+        }
+        unset($data["_token"]);
+
+        //dd($data);
+        $req_to_enroll = new ToEnroll($data);
+        $req_to_enroll->save();
+        Mail::to('pmidegree@gmail.com')->send(new EnrollRequest($data));
         $request->session()->flash('status', true);
         return \redirect()->back();
     }

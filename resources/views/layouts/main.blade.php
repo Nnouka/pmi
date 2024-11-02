@@ -121,6 +121,7 @@
 						<li class="nav-item no-break-word"><a class="nav-link" href="{{route('a-propos')}}">{{__('header.about')}}</a></li>
 						<!-- <li class="nav-item"><a class="nav-link" href="{{route('certifications')}}">Certifications</a></li> -->
 						<li class="nav-item"><a class="nav-link" href="{{route('contact')}}">{{__('header.contact')}}</a></li>
+						<li class="nav-item"><button class="nav-link btn btn-primary" onclick="toggleEnrollModal()">{{__('header.enroll_now')}}</button></li>
 					</ul>
 				</div>
 			</div>
@@ -128,8 +129,21 @@
 	</header>
 
 	<div class="m-0 p-0">
+		<section>
+			@if(Session::get('status'))
+				<div class="row">
+					<div class="col-12">
+						<div class="alert alert-success contact__msg" role="alert">
+							Your message has been sent successfully.
+						</div>
+					</div>
+				</div>
+			@endif
+		</section>
 		@yield('content')
 	</div>
+
+	@include('partials.enrollment_form')
 
 	<!-- footer Start -->
 	<footer class="footer section gray-bg">
@@ -181,7 +195,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="footer-btm py-4 mt-5">
 				<div class="row align-items-center justify-content-between">
 					<div class="col-lg-6">
@@ -226,7 +239,8 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
 
 	<script src="{{asset('js/script.js')}}"></script>
-	{{-- <script src="{{asset('js/contact.js')}}"></script>Ò --}}
+	<script src="{{asset('js/req_to_enroll.js')}}"></script>
+	{{-- <script src="{{asset('js/contact.js')}}"></script> --}}
 
 </body>
 

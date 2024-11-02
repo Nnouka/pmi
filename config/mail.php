@@ -40,9 +40,9 @@ return [
             'port' => 587,
             'encryption' => 'tls',
             'username' => 'nnoukastephen@gmail.com',
-            'password' => 'uqhdtcphhkalubum',
+            'password' => 'rbdifhebctlealph',
             'timeout' => null,
-            'local_domain' => 'derm-tech.com',
+            'local_domain' => 'pulpitmanagmentinternational.com',
         ],
 
         'ses' => [
