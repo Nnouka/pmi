@@ -16,6 +16,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'PMI'),
+    'school_url' => env('SCHOOL_URL', 'https://pmii.immopropr.com/'),
 
     /*
     |--------------------------------------------------------------------------

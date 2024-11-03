@@ -20,6 +20,12 @@
                 </tr>
                 <tr style="max-height:100px;">
                     <th colspan="50%" style="text-align:left;">
+                        Country of Residence
+                    </th>
+                    <td style="text-align:left;">{{$country}}</td>
+                </tr>
+                <tr style="max-height:100px;">
+                    <th colspan="50%" style="text-align:left;">
                        Name of Congregation
                     </th>
                     <td style="text-align:left;">{{$congregation}}</td>

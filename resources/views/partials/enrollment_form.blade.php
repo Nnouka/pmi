@@ -17,23 +17,27 @@
             <div class="modal-body">
                 <form action="{{ route('enroll.request') }}" method="POST">
                     @csrf
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="first_name" class="form-label">First Name</label>
                         <input type="text" class="form-control" id="first_name" name="first_name" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="last_name" class="form-label">Last Name</label>
                         <input type="text" class="form-control" id="last_name" name="last_name" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
+                        <label for="country" class="form-label">Country of Residence</label>
+                        <input type="text" class="form-control" id="country" name="country" required>
+                    </div>
+                    <div class="mb-1">
                         <label for="congregation" class="form-label">Name of Congregation</label>
                         <input type="text" class="form-control" id="congregation" name="congregation" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="phone" class="form-label">Phone Contact</label>
                         <input type="tel" class="form-control" id="phone" name="phone" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div>

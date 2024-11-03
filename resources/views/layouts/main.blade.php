@@ -149,7 +149,7 @@
 	<footer class="footer section gray-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 mr-auto col-sm-12">
+				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="widget mb-5 mb-lg-0">
 						<div class="logo mb-4 w-300">
 							<img src="{{asset('images/logo.png')}}" alt="" class="img-fluid">
@@ -157,7 +157,18 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="widget mb-5 mb-lg-0">
+						<a href="{{config('app.school_url')}}" target="__blank"><h4 class="text-capitalize mb-3">School</h4></a>
+						<div class="divider mb-4"></div>
+
+						<ul class="list-unstyled footer-menu lh-35">
+							<li><a href="{{config('app.school_url')}}" target="__blank">{{config('app.name')}}</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="widget mb-5 mb-lg-0">
 						<h4 class="text-capitalize mb-3">Support</h4>
 						<div class="divider mb-4"></div>
@@ -172,7 +183,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="widget widget-contact mb-5 mb-lg-0">
 						<h4 class="text-capitalize mb-3">Contact</h4>
 						<div class="divider mb-4"></div>

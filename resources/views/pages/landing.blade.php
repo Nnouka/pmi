@@ -57,62 +57,68 @@
 	</div>
 </div>
 <div class="container">
-<div class="row justify-content-center mb-4">
-	<div class="col-lg-6 text-center">
-	   <div class="section-title partners">
-		   <h2>Our Partners</h2>
-		   <div class="divider mx-auto my-4"></div>
-	   </div>
-   </div>
+	<div class="row justify-content-center mb-4">
+		<div class="col-lg-6 text-center">
+		<div class="section-title partners">
+			<h2>Our Partners</h2>
+			<div class="divider mx-auto my-4"></div>
+		</div>
+		</div>
+   	</div>
    <div class="container">
-	<div class="row portfolio-gallery justify-content-center">
-		<div class="col-lg-2 col-sm-4 col-md-3 mb-4 shuffle-item">
-			<div class="position-relative doctor-inner-box">
-			<div class="doctor-profile">
-				<div class="doctor-img">
-						<img src="{{asset('images/partners/churchhouse.jpg')}}" alt="partner-image" class="img-fluid fit-full w-100">
+		<!-- <div class="row portfolio-gallery justify-content-center">
+			<div class="col-lg-2 col-sm-4 col-md-3 mb-4 shuffle-item">
+				<div class="position-relative doctor-inner-box">
+					<div class="doctor-profile">
+						<div class="doctor-img">
+								<img src="{{asset('images/partners/churchhouse.jpg')}}" alt="partner-image" class="img-fluid fit-full w-100">
+						</div>
+					</div> 
 				</div>
-			</div> 
 			</div>
-		</div>
 
-		<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
-		<div class="position-relative doctor-inner-box">
-			<div class="doctor-profile">
-				<div class="doctor-img">
-					<img src="{{asset('images/partners/churchhouse2.jpg')}}" alt="partner-image" class="img-fluid fit-full w-70">
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
-			<div class="position-relative doctor-inner-box">
-				<div class="doctor-profile">
-					<div class="doctor-img">
-					<img src="{{asset('images/partners/churchhouse3.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
+			<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
+				<div class="position-relative doctor-inner-box">
+					<div class="doctor-profile">
+						<div class="doctor-img">
+							<img src="{{asset('images/partners/churchhouse2.jpg')}}" alt="partner-image" class="img-fluid fit-full w-70">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
-			<div class="position-relative doctor-inner-box">
-				<div class="doctor-profile">
-					<div class="doctor-img">
-					<img src="{{asset('images/partners/churchplace.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
+
+			<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
+				<div class="position-relative doctor-inner-box">
+					<div class="doctor-profile">
+						<div class="doctor-img">
+						<img src="{{asset('images/partners/churchhouse3.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
-			<div class="position-relative doctor-inner-box">
-				<div class="doctor-profile">
-					<div class="doctor-img">
-					<img src="{{asset('images/partners/churchsongs.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
+
+			<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
+				<div class="position-relative doctor-inner-box">
+					<div class="doctor-profile">
+						<div class="doctor-img">
+						<img src="{{asset('images/partners/churchplace.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		</div>
+
+			<div class="col-lg-2 col-sm-4 col-md-3 mb-4">
+				<div class="position-relative doctor-inner-box">
+					<div class="doctor-profile">
+						<div class="doctor-img">
+						<img src="{{asset('images/partners/churchsongs.png')}}" alt="partner-image" class="img-fluid fit-full w-70">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div> -->
+		<div style="font-size:2rem;text-align:center;">Church of Christ Butere</div>
 	</div>
 </div>
 

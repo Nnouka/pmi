@@ -1640,6 +1640,7 @@ a:focus {
 
 .w-300 {
   width: 300px;
+  max-width: 100%;
 }
 
 .fit-full {
@@ -1666,4 +1667,13 @@ a:focus {
   border: none;
   outline: none;
   background: none;
+}
+.modal-content {
+  max-height: 98vh;
+}
+.modal-body {
+  overflow-y: auto;
+}
+.form-label {
+  margin-bottom: 0;
 }
