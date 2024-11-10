@@ -19,27 +19,27 @@
                     @csrf
                     <div class="mb-1">
                         <label for="first_name" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="first_name" name="first_name" required>
+                        <input placeholder="Please type your First Name" type="text" class="form-control" id="first_name" name="first_name" required>
                     </div>
                     <div class="mb-1">
                         <label for="last_name" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="last_name" name="last_name" required>
+                        <input placeholder="Please type your Last Name" type="text" class="form-control" id="last_name" name="last_name" required>
                     </div>
                     <div class="mb-1">
                         <label for="country" class="form-label">Country of Residence</label>
-                        <input type="text" class="form-control" id="country" name="country" required>
+                        <input placeholder="Please type your Country of Residence" type="text" class="form-control" id="country" name="country" required>
                     </div>
                     <div class="mb-1">
                         <label for="congregation" class="form-label">Name of Congregation</label>
-                        <input type="text" class="form-control" id="congregation" name="congregation" required>
+                        <input placeholder="Please type your Name of Congregation" type="text" class="form-control" id="congregation" name="congregation" required>
                     </div>
                     <div class="mb-1">
                         <label for="phone" class="form-label">Phone Contact</label>
-                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                        <input placeholder="Please type your Phone Contact" type="tel" class="form-control" id="phone" name="phone" required>
                     </div>
                     <div class="mb-1">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
+                        <input placeholder="Please type your Email" type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

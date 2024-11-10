@@ -50,11 +50,7 @@
           We are seriously engaged in soul winning outreach.
           To join our mission team, please contact us. </p>
       </div>
-      <div class="mx-auto section-title">
-        <h2 class="text-center">Our Mission</h2>
-        <div class="divider my-4 mx-auto"></div>
-        <h4>Strengthening Churches of Christ globally to the glory of God (Acts 14:22)</h4>
-      </div>
+      @include('partials.about.mission')
     </div>
 </section>
 

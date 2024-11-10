@@ -14,9 +14,9 @@
             </p>
             @if(isset($member->caption) && strlen($member->caption) > 2)
                 <p class="team-description-para">
-                    ({{ $member->caption }})
+                    {{ $member->caption }}
                 </p>
             @endif
-        </div> 
+        </div>
       </div>
 </div>
