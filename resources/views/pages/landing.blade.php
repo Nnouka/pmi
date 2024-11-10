@@ -27,7 +27,9 @@
 <div class="container">
 	@include('partials.about.achievement')
 </div>
-
+<div class="container">
+	@include('partials.about.history')
+</div>
 
 <!-- /portfolio -->
 <div class="container">
