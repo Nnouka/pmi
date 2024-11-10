@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'PMI'),
+    'name' => env('APP_NAME', 'Pulpit Management International'),
     'school_url' => env('SCHOOL_URL', 'https://pmii.immopropr.com/'),
 
     /*

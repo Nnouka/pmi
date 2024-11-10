@@ -17,7 +17,7 @@
 	<!-- SEO -->
 	<meta
 		name="description"
-		content="{{config('app.name')}}: {{!empty($description) ? $description : 'A missionary Organization of the Church of Christ, affiliated to Church of Christ Butere Western Kenyan'}}" />
+		content="{{config('app.name')}}: {{!empty($description) ? $description : 'Pulpit management international is a missionary Organization of the Church of Christ, affiliated to Church of Christ Butere Western Kenyan'}}" />
 	<meta
 		name="keywords"
 		content="bible,school,church,christ,organisation,christian,missionary,pulpit,management,prayer,jesus" />
@@ -29,6 +29,8 @@
 	<meta property="og:url" content="{{route('home')}}" />
 	<meta property="og:site_name" content="{{config('app.name')}}" />
 	<meta property="article:tag" content="pulpit" />
+	<meta property="article:tag" content="pulpit management" />
+	<meta property="article:tag" content="pulpit management international" />
 	<meta property="article:tag" content="prayer" />
 	<meta property="article:tag" content="disciple" />
 	<meta property="article:tag" content="Jesus" />
