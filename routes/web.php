@@ -34,4 +34,5 @@ Route::get('/appointment', function () {
 })->name('appointment');
 Route::get('/product/{slug}', [ProductController::class, 'show'])->name('product');
 Route::get('/team/{slug}', [TeamController::class, 'show'])->name('team');
+Route::get('/team', [TeamController::class, 'index'])->name('team.members');
 Route::post('/request-to-enroll', [ContactController::class, 'enrollRequest'])->name('enroll.request');

@@ -121,7 +121,7 @@
 							</ul>
 						</li> -->
 						<li class="nav-item no-break-word"><a class="nav-link" href="{{route('a-propos')}}">{{__('header.about')}}</a></li>
-						<!-- <li class="nav-item"><a class="nav-link" href="{{route('certifications')}}">Certifications</a></li> -->
+						<li class="nav-item"><a class="nav-link" href="{{route('team.members')}}">{{__('header.team')}}</a></li>
 						<li class="nav-item"><a class="nav-link" href="{{route('contact')}}">{{__('header.contact')}}</a></li>
 						<li class="nav-item"><button class="nav-link btn btn-primary" onclick="toggleEnrollModal()">{{__('header.enroll_now')}}</button></li>
 					</ul>
